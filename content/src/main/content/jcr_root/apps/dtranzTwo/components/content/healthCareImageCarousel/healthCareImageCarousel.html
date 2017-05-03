@@ -1,0 +1,35 @@
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+<meta data-sly-call="${clientlib.all @categories='dtranz.custom.widgets'}" data-sly-unwrap></meta>
+
+
+<article ><section class="image-carousel carousel clearfix">
+	<div class="carousel-nav">
+		<a href="#" class="carousel-nav-next"><span class="fa fa-angle-right"></span></a>
+	</div>
+    <div  data-sly-use.carouselData="imageCarouselHelper.js" data-sly-unwrap>
+	<div class="carousel-container clearfix"  >
+		<ul class="carousel-slides">
+			<li class="carousel-slide"  > 
+
+<!-- COMPONENT: responsive-image -->
+
+<img class="img img-responsive js-image-responsive " alt="Responsive Image Test" 
+	src="http://placehold.it/940x450" 
+    data-xssrc="http://placehold.it/600x287" 
+    data-hdxssrc="http://placehold.it/1200x574" 
+    data-smsrc="http://placehold.it/600x287" 
+    data-hdsmsrc="http://placehold.it/1200x574" 
+    data-mdsrc="http://placehold.it/940x450" 
+    data-hdmdsrc="http://placehold.it/1880x900">
+<!-- COMPONENT END: responsive-image -->
+				<div class="image-carousel-banner dark">
+					<h3>Place Holder</h3>
+					<h2>This is part for Health Care image Crousel for Segmentation</h2>
+				</div>				
+			</li>
+
+
+		</ul>
+	</div>
+    </div>
+</section></article>

@@ -1,0 +1,39 @@
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+<meta data-sly-call="${clientlib.all @categories='dtranz:custom'}" data-sly-unwrap></meta>
+
+<nav class="utility-nav row">
+	<ul class="utility-links">
+    <div data-sly-use.obj="org.kicker.aem.content.utilitynav.UtilityNavMultiFieldReader" data-sly-unwrap>
+    <div data-sly-list="${obj.utilityNav}" data-sly-unwrap>
+		<li><a href="${item.url}.html">${item.text}</a></li>
+    </div>
+    </div>
+		<li class="utility-region">
+			<a class="js-country-selector-utility" href="#js-country-selector-window">
+				<i class="utility-region-icon"></i>
+				<span class="utility-region-name">USA</span>
+				<i class="utility-region-expand fa fa-chevron-down"></i>
+			</a>
+		</li>
+	</ul>
+</nav>
+
+
+
+<!-- COMPONENT: country-selector-window -->
+<!-- COMPONENT: country-selector -->
+ <div class="" data-sly-resource="${'countrySelector' @ resourceType='dtranzTwo/components/content/countySelector'}"> </div> <!-- Monika -->
+<!-- COMPONENT END: country-selector-item -->
+
+
+<!-- COMPONENT END: utility-nav -->
+		</div>
+	</div>
+ <button class="back-to-main">Main</button>
+
+
+
+
+
+
+

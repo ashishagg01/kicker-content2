@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T12:03:39.620+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Carousel Main">
+        <folderThumbnail/>
+    </jcr:content>
+    <masthead-1.jpg/>
+    <masthead-rollover.jpg/>
+    <masthead-rollover-2.jpg/>
+    <masthead-rollover-2-hd.jpg/>
+    <masthead-1-hd.jpg/>
+    <masthead-rollover-3-hd.jpg/>
+    <masthead-rollover-3.jpg/>
+    <masthead-2.jpg/>
+    <masthead-2-hd.jpg/>
+    <masthead-3.jpg/>
+    <masthead-3-hd.jpg/>
+    <masthead-rollover-hd.jpg/>
+</jcr:root>

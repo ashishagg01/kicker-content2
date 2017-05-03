@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-05T16:18:32.447+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:22.024+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/dtranzTwo/templates/subsectionLandingPage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Peripheral Artery Disease"
+        jcr:uuid="c40545b6-fced-4da0-a1b2-c9f9386776fd"
+        sling:resourceType="dtranzTwo/components/page/display/subsectionLandingPage">
+        <title
+            jcr:lastModified="{Date}2015-10-05T15:24:18.422+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/title"
+            pageTitle="Peripheral Artery Disease"/>
+        <masthead-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys"/>
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text_0
+                jcr:created="{Date}2015-09-18T11:08:02.146+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T15:24:40.125+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;h3>Description&lt;/h3>&#xa;&lt;p>&lt;b>What is peripheral artery disease?&lt;/b>&lt;br>&#xa;Peripheral artery disease (PAD) is a disease of the blood vessels in areas outside your heart. Also called peripheral vascular disease (PVD), this serious circulation problem affects arteries that carry blood to your arms and legs.&lt;/p>&#xa;&lt;h3>Causes and Risk Factors&lt;/h3>&#xa;&lt;p>&lt;b>What are the causes and risk factors of peripheral artery disease?&lt;br>&#xa;&lt;/b>More than 4 million Americans suffer leg pain symptoms. Those at the highest risk of PAD are over the age of 50, with high blood pressure, high cholesterol, diabetes and stroke.&lt;/p>&#xa;&lt;h3>Symptoms&lt;/h3>&#xa;&lt;p>&lt;b>What are the symptoms of peripheral artery disease?&lt;br>&#xa;&lt;/b>PAD may cause a dull, cramping pain in the legs, hips or buttocks when you exercise, that stops when you rest. This is a classic PAD symptom called claudication.&amp;nbsp;&lt;/p>&#xa;&lt;h3>Diagnosis&lt;/h3>&#xa;&lt;p>&lt;b>How is peripheral artery disease diagnosed?&lt;br>&#xa;&lt;/b>The most common test for PAD is the ankle brachial index (ABI), a painless exam the uses ultrasound images to measure blood pressure in the feet and arms.&amp;nbsp;&lt;/p>&#xa;&lt;h3>Treatment&lt;/h3>&#xa;&lt;p>&lt;b>How is peripheral artery disease treated?&lt;br>&#xa;&lt;/b>Doctors may prescribe medications, life-style changes, and procedures like angioplasty and stenting to open blocked vessels.&lt;/p>&#xa;"/>
+        </content-par>
+        <rightrail-ipar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys">
+            <socialbuttons
+                jcr:created="{Date}2015-09-28T13:21:51.040+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T14:02:22.663+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/socialButtons"
+                mailImage="/content/dam/dtranzTwo/img/message-icon.PNG"
+                msgImageType="imageurl"
+                shareText="Share"
+                socialButton="[{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/twitter-icon.PNG&quot;\,&quot;url&quot;:&quot;https://twitter.com/intent/tweet&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/facebook-icon.PNG&quot;\,&quot;url&quot;:&quot;https://www.facebook.com/sharer/sharer.php&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/linkedin-icon.PNG&quot;\,&quot;url&quot;:&quot;https://www.linkedin.com/cws/share&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;}]"
+                subject="Thought This Would be Interesting for You"/>
+            <socialtile
+                jcr:created="{Date}2015-09-28T13:22:05.988+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T13:22:34.627+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/socialTile"
+                pageUrl="https://www.facebook.com/BostonScientific"
+                pageUrlLinkedin="http://news.bostonscientific.com/news-alerts"
+                twitterUname="@bostonsci"
+                widget="643714964738314241"/>
+            <text
+                jcr:created="{Date}2015-10-05T13:16:34.719+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T13:17:29.038+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;h3>Brochure&lt;/h3>&#xa;&lt;p>Answering Your Questions&lt;/p>&#xa;&lt;p>About the EP Study&lt;/p>&#xa;"/>
+        </rightrail-ipar>
+    </jcr:content>
+    <BostonScientific/>
+</jcr:root>

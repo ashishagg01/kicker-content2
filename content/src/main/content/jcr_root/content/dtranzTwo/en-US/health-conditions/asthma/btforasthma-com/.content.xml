@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-22T10:46:53.008+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:19.893+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/dtranzTwo/templates/redirectPage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="BTforAsthma.com"
+        jcr:uuid="a7f0c860-61ea-458b-b279-afb3f3a72c6a"
+        sling:resourceType="dtranzTwo/components/page/display/redirectPage"
+        redirectTarget="http://BTforAsthma.com">
+        <image
+            jcr:lastModified="{Date}2015-09-22T10:29:28.837+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

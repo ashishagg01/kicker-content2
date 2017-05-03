@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:48.411+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:15.136+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/product-header-scaffolding"
+        cq:tags="[bsc_categories:accessories/electrophysiology]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="VITALIO™ Pacemaker"
+        jcr:uuid="2a329303-c3ad-456f-a134-080b62ddb71c"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <productHeader
+            jcr:lastModified="{Date}2015-09-08T16:57:11.518+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            calloutIcon="/etc/designs/dtranzTwo/designs/clientBase/assets/img/icons/icon-contact-email.png"
+            calloutLinks="\{&quot;calloutLinkTo&quot;:&quot;#&quot;,&quot;calloutlinkText&quot;:&quot;Contact Us&quot;,&quot;calloutIcon&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/assets/img/icons/icon-contact-email.png&quot;}"
+            calloutlinkText="Contact Us"
+            calloutLinkTo="#"
+            carouselMedia="[/etc/designs/dtranzTwo/designs/clientBase/assets/img/pacemakers/Vitalio-DDDR-3248_960x960.image.460.0.jpg]"
+            exploresectiontitle="Explore"
+            lighttitle="Pacemaker"
+            productButtonLink="#"
+            productButtonText="REQUEST A SALES REP"
+            productCarousel="\{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/assets/img/pacemakers/Vitalio-DDDR-3248_960x960.image.460.0.jpg&quot;,&quot;carouselDescription&quot;:&quot;&quot;,&quot;carouselIsVideo&quot;:false}"
+            productDesc="VITALIO lets the heart take the lead, intervening only when appropriate. With features including respiration-based pacing for rate response, wireless connectivity and automaticity in both chambers – the VITALIO pacemaker lets your patients get back to what’s important in life."
+            productResourcesTitle="Key Resources"
+            resourceLinks="\{&quot;resourceLinkTo&quot;:&quot;#&quot;,&quot;resourceLinkText&quot;:&quot;Indications, Safety and Warnings&quot;}"
+            resourceLinkText="Indications, Safety and Warnings"
+            resourceLinkTo="#"
+            title="VITALIO™">
+            <productSection
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys">
+                <subtitle
+                    jcr:created="{Date}2015-09-07T15:23:33.438+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-07T15:23:44.543+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/subtitle"
+                    selectType="h2"
+                    text="Product Details"/>
+                <text_0
+                    jcr:created="{Date}2015-09-07T15:23:59.037+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-07T15:24:03.140+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/text"
+                    text="&lt;p>&lt;b>Clinical Benefits for You and Your Patients. Efficiency for Your Practice.&lt;/b>&lt;/p>&#xa;&lt;p>&lt;b>Respiration-based Pacing&lt;/b>&lt;/p>&#xa;&lt;p>The VITALIO pacemaker offers the RightRate™ feature which combines our existing MV (minute ventilation) sensor with enhanced programming. The MV sensor is the only sensor that follows a patient’s respiration and the only sensor clinically proven to restore chronotropic competence1. The RightRate feature incorporates programming improvements such as automatic sensor calibration, a simplified user interface and a sensor replay to make patient optimization easier.&lt;/p>&#xa;&lt;p>&lt;b>Wireless Implants &amp;amp; Follow-ups&lt;/b>&lt;/p>&#xa;&lt;p>Boston Scientific knows how important efficiency is for your practice and staff. A recent study showed that remote monitoring can be a challenge with a 49% rate of patient non-compliance.3&amp;nbsp;This non-compliance can cost your practice in multiple ways including: increased clinic workload and workflow disruptions. In a different study, wireless devices showed patient compliance greater than 90%.4&amp;nbsp;In addition, the VITALIO pacemakers wireless connectivity used with the LATITUDE™ Patient Management system can provide daily alerts on clinically significant events such as atrial arrhythmias.&lt;/p>&#xa;&lt;p>&lt;b>Management of Unnecessary RV Pacing&lt;/b>&lt;/p>&#xa;&lt;p>The VITALIO pacemaker provides options to manage RV pacing. It features RYTHMIQ™ which is designed to minimize unnecessary pacing without clinically significant pauses. RYTHMIQ is a reverse-mode switch algorithm and operates in an atrial pacing mode with VVI back-up during times of normal conduction, switching to a dual chamber mode when a conduction block is detected. A recent study demonstrated an 80% relative and 50% absolute reduction in RV pacing through the use of RYTHMIQ.2. The VITALIO pacemaker also includes AV Search+ which is also designed to reduce unnecessary RV pacing through the extension of the AV delay.&lt;/p>&#xa;&lt;p>&lt;b>Fully Automatic&lt;/b>&lt;/p>&#xa;&lt;p>The VITALIO pacemaker incorporates PaceSafe™ RV automatic capture and RA automatic threshold to automatically adjust pacing thresholds. These algorithms can increase projected longevity, adjust to fluctuating thresholds and are simple to use with single-button programming.&lt;/p>&#xa;&lt;p>&lt;b>Respiratory Rate Trend&lt;/b>&lt;/p>&#xa;&lt;p>Respiration is a key vital sign; Boston Scientific provides the ability to track it in a device. Respiratory Rate Trend uses a transthoracic impedance signal to measure respiration and tracks daily maximum, median and minimum respiration rates enabling you to help monitor your patients. This data is available through the LATITUDE™ system and qualifies for ICM code reimbursement.&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </productSection>
+        </productHeader>
+    </jcr:content>
+</jcr:root>

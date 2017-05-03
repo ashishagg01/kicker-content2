@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="500"
+    title="Dialog"
+    width="600"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <Product_x0020_Categories
+                jcr:primaryType="cq:Panel"
+                title="Product Categories">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <productsLandingPage
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Select the Products landing Page"
+                        fieldLabel="Products Landing Page"
+                        name="./productsLandingPage"
+                        xtype="pathfield"/>
+                    <filterByText
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Filter By Text Eg: “Filter By”"
+                        fieldLabel="Filter By Text"
+                        name="./filterByText"
+                        xtype="textfield"/>
+                    <defaultDropdownText
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Eg: “All Specialties”"
+                        fieldLabel="Default Dropdown Text"
+                        name="./defaultDropdownText"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Eg: “All Specialties” Title"
+                        fieldLabel="Title"
+                        name="./title"
+                        xtype="textfield"/>
+                    <viewByText
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="View By Text Eg: “View By”"
+                        fieldLabel="View By Text"
+                        name="./viewByText"
+                        xtype="textfield"/>
+                    <galleryButtonText
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the text on Gallery Button"
+                        fieldLabel="Gallery Button Text"
+                        name="./galleryButtonText"
+                        xtype="textfield"/>
+                    <listButtonText
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the text on List Button"
+                        fieldLabel="List Button Text"
+                        name="./listButtonText"
+                        xtype="textfield"/>
+                </items>
+            </Product_x0020_Categories>
+        </items>
+    </items>
+</jcr:root>

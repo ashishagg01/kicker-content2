@@ -1,0 +1,45 @@
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+<meta data-sly-call="${clientlib.all @categories='dtranz:socialButton'}" data-sly-unwrap>
+</meta>
+
+<div class="sidebar-share">
+    <div data-sly-use.socialButtonObj="socialButtons.js" data-sly-unwrap>
+        <ul>
+            <li>
+                <p>${properties.shareText}</p>
+            </li>
+            <!--Iterating over the social buttons list-->
+            <div  data-sly-list="${socialButtonObj}" style="display:inline;">
+                <li>
+                    <div data-sly-test="${item.url=='https://www.facebook.com/sharer/sharer.php'}" data-sly-unwrap>
+                    	<a target="_blank" href='${item.url}?u=${currentPage.path}'>
+                      </div>
+                     <div data-sly-test="${item.url!='https://www.facebook.com/sharer/sharer.php'}" data-sly-unwrap>
+                    	<a target="_blank" href='${item.url}?url=http://localhost:4502${currentPage.path}.html'>
+                      </div>
+                        <div data-sly-test="${item.image != ''}" data-sly-unwrap>
+                            <img src="${item.image}"/>
+                        </div>
+                        <div data-sly-test="${item.imageCss != ''}" data-sly-unwrap>
+                            <span class="${item.imageCss}"></span>
+                        </div>
+                    </a>
+                </li>
+            </div>
+            <li>
+                <!--checking Image type value-->
+                <div data-sly-test="${properties.msgImageType}" data-sly-unwrap>
+                    <a href="mailto:${properties.mailto}?Subject=${properties.subject}
+                        &body=${currentPage.path}">
+                        <div data-sly-test="${properties.mailImage != ''}" data-sly-unwrap>
+                            <img src="${properties.mailImage}"/>
+                        </div>
+                        <div data-sly-test="${properties.mailCss != ''}" data-sly-unwrap>
+                            <span class="${properties.mailCss}"></span>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

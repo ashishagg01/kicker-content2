@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastModified="{Date}2015-08-24T11:41:18.126+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:44:04.254+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="img"/>
+    <backgrounds/>
+    <callouts/>
+    <fpo/>
+    <icons/>
+    <image-gallery/>
+    <logo/>
+    <swf/>
+    <test/>
+    <boston-scientific-logo.png/>
+    <boston-scientific-logo-no-tag.png/>
+    <responsive-img-md.png/>
+    <clinical-info-bar-graph.png/>
+    <responsive-img-sm.png/>
+    <press-releases.xml/>
+    <specifications-stent.png/>
+    <responsive-img-md-2x.png/>
+    <responsive-img-sm-2x.png/>
+    <responsive-img-default.png/>
+    <truste_seal_footer.gif/>
+    <explore-customer-service.png/>
+    <stent_3.psd/>
+    <productheaderimages/>
+    <products/>
+    <crtd/>
+</jcr:root>

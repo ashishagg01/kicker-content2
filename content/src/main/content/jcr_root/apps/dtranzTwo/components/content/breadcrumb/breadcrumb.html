@@ -1,0 +1,25 @@
+
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap></section>
+
+
+
+
+	<ul class="breadcrumb hidden-xs" data-sly-use.breadcrumb="org.kicker.aem.content.breadcrumb.BreadcrumbImpl" data-sly-list="${breadcrumb.pageList}">
+		<div data-sly-test="${itemList.last}" data-sly-unwrap>
+			<li class="breadcrumb-item"><span> ${item.title} </span></li>
+			<div data-sly-test="${currentStyle.trail}" data-sly-unwrap>
+				<li >${currentStyle.trail}</li>
+			</div>
+
+		</div>
+		<div data-sly-test="${!itemList.last}" data-sly-unwrap>
+
+			<li class="breadcrumb-item"><a href="${item.pathRef}.html"> ${item.title} </a></li>
+			<div data-sly-test="${!currentStyle.delim}" data-sly-unwrap>
+				<li class="breadcrumb-divider fa fa-chevron-right"></li>
+			</div>
+			<div data-sly-test="${currentStyle.delim}" data-sly-unwrap>
+				<li >${currentStyle.delim}</li>
+			</div>
+		</div>
+	</ul>

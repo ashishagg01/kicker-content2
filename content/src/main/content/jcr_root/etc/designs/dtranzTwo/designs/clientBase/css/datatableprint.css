@@ -1,0 +1,24 @@
+﻿@media print {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        color: #333333;
+        float: none !important;
+        background: transparent none;
+        overflow: visible !important;
+    }
+
+    table.ccode-search-result-table {
+        border-collapse: collapse;
+    }
+
+    table.dataTable thead th, table.dataTable thead td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+}

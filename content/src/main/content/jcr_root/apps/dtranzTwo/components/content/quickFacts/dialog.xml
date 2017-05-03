@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <quick-facts
+                jcr:primaryType="cq:Widget"
+                title="Quick Facts">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the Title"
+                        fieldLabel="Title"
+                        name="./quickTitle"
+                        validatOnBlur="true"
+                        xtype="textfield"/>
+                    <call-to-action
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Select a page or enter a url"
+                        fieldLabel="Call to Action"
+                        name="./ctaLink"
+                        xtype="pathfield"/>
+                    <cta-text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Enter the Text for Call to Action"
+                        fieldLabel="CTA Text"
+                        name="./ctaText"
+                        xtype="textfield"/>
+                </items>
+            </quick-facts>
+            <facts-list
+                jcr:primaryType="cq:Panel"
+                border="false"
+                title="Fact List">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <multi-feild
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Facts"
+                        limit="2"
+                        name="./link"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="mypathfieldQuick"/>
+                        <listeners jcr:primaryType="nt:unstructured"/>
+                    </multi-feild>
+                </items>
+            </facts-list>
+            <image
+                jcr:primaryType="cq:Widget"
+                sling:resourceType="wcm/foundation/components/image"
+                allowUpload="false"
+                cropParameter="./imageCrop"
+                ddGroups="[media]"
+                defaultValue="/etc/designs/dtranztwo/clientBase/assets/img/fpo/quick-facts-map.png"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                mapParameter="./imageMap"
+                name="./file"
+                requestSuffix=".img.png"
+                rotateParameter="./imageRotate"
+                title="Image"
+                xtype="html5smartimage"/>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="login"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <login
+                jcr:primaryType="cq:Panel"
+                title="login">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <actionUrl
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the action url."
+                        fieldLabel="Action URL:"
+                        name="./actionUrl"
+                        xtype="pathfield"/>
+                    <resource
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the resource url."
+                        fieldLabel="Redirect Resource URL:"
+                        name="./resource"
+                        xtype="pathfield"/>
+                </items>
+            </login>
+        </items>
+    </items>
+</jcr:root>

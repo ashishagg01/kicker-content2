@@ -1,0 +1,53 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function() {
+
+        $('#popUpModal').modal('show');
+
+    });
+</script>
+
+<div style="margin-top:10%" class="modal fade" id="popUpModal" role="dialog">
+    <div class="modal-dialog" style="width:90%">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h3 class="modal-title">Select health-conditions preferences:</h3>
+            </div>
+            <div class="modal-body">
+
+                <div class="finder" data-sly-use.healthConditionMap="org.kicker.aem.content.healthcondition.HealthCondition">
+                    <form name="checkPreferencesForm" action="/bin/service/healthpref/save" method="POST">
+                        <ul class="links-list four-three-col-list" data-sly-list="${healthConditionMap.healthConditionPageMap}">
+
+                            <li class="links-list-item" >
+                                <div  style="color: #48B8D2; font-size:70%">
+                                    <input type="checkbox" name="healthChk" value="${item}"> ${item}
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="modal-footer">
+
+						 <div class="col-md-8" align="center">
+                         	<li class="list-group-item list-group-item-info">
+                        		 For better experience, please select your preferences. 
+                        	 </div>
+                         <div class="col-md-4">
+                         <input type="submit" id="ok_btn" value="OK" style="height:40px; width:80px">
+                         </div></li></div>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

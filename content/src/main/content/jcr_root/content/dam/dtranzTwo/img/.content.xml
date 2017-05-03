@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T12:03:40.713+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="image">
+        <folderThumbnail/>
+    </jcr:content>
+    <boston-scientific-logo-no-tag.png/>
+    <responsive-img-default.png/>
+    <boston-scientific-logo.png/>
+    <responsive-img-sm-2x.png/>
+    <responsive-img-md-2x.png/>
+    <specifications-stent.png/>
+    <clinical-info-bar-graph.png/>
+    <responsive-img-md.png/>
+    <responsive-img-sm.png/>
+    <explore-customer-service.png/>
+    <featured-article-img-hd.png/>
+    <featured-article-img-hd-2.png/>
+    <Atrial-D-KnowlesCarousel.image.690.0.jpg/>
+    <iStock_000023028810Large_x0020_-_x0020_Patient_x0020_940x410.image.940.0.jpg/>
+    <twitter-icon.PNG/>
+    <facebook-icon.PNG/>
+    <message-icon.PNG/>
+    <linkedin-icon.PNG/>
+    <Sarah-Hebert-Carousel.image.690.0.jpg/>
+    <Michael-Sorrell-Carousel.image.690.0.jpg/>
+    <sui_masthead_liz_oconnell_laughing.image.690.0.jpg/>
+    <Garcias-Carousel.image.690.0.jpg/>
+    <bt_yt-screencapture_jenny.image.690.0.png/>
+    <Barry-Carousel.image.690.0.png/>
+    <Brady-Bev-Carousel.image.690.0.jpg/>
+    <Cardiomy-Twins-Carousel2.image.690.0.JPG/>
+    <Medical_Specialties_DickBechel_Patient_1380x560.image.690.0.jpg/>
+    <MattNoble-Carousel.image.690.0.jpg/>
+    <JohnWooten-Carousel.image.690.0.jpg/>
+    <Heart-attack-Ric_Carousel.image.690.0.jpg/>
+    <Bud-Lilly-Carousel.image.690.0.jpg/>
+    <women_x0027_s-health-patient-signpost-705-285.image.690.0.png/>
+</jcr:root>

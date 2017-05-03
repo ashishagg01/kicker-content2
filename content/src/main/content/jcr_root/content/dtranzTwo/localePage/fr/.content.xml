@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-08-26T10:17:07.483+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:13.665+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/dtranzTwo/templates/homePage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="French"
+        jcr:uuid="168b8bb2-498e-4a53-8fcd-fb3cee80095f"
+        sling:resourceType="dtranzTwo/components/page/display/homePage"/>
+</jcr:root>

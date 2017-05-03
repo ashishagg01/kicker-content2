@@ -1,0 +1,16 @@
+<form id="loginForm" method="POST" action="${properties.actionUrl}.html/j_security_check" style="width:300px; align:center">
+
+    <template data-sly-template.locale="${@ key}">
+    	${key @ i18n}
+	</template>
+
+    <label for="username"><div data-sly-call="${locale @ key='username'}"></div></label>
+    <input type="text" id="username" name="j_username" required></br></br>
+
+    <label for="password"><div data-sly-call="${locale @ key='password'}"></div></label>
+    <input type="password" id="password" name="j_password" required></br></br>
+
+    <input type="submit" value="Login" />
+
+    <input type="hidden" name="resource" value="${properties.resource}.html" />
+</form>

@@ -1,0 +1,21 @@
+<article>
+<div class="finder" data-sly-use.prodCatogeries="org.kicker.aem.content.catFinder.CatFinder" >
+	<div class="finder-header clearfix">
+        <h2>${properties.title}</h2>
+
+	</div>
+	<div class="finder-contents">
+        <h3>${properties.subtitle}</h3>
+		
+<!-- COMPONENT: links-list-product -->
+
+
+<ul class="links-list four-three-col-list"  data-sly-list="${prodCatogeries.categoryList}">
+
+    <li class="links-list-item">
+		<a href="${item.path}">${item.title}</a>
+	</li>
+</ul>
+<!-- COMPONENT END: links-list-product -->
+	</div>
+</div></article>

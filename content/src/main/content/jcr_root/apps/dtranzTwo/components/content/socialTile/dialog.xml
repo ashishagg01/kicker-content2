@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <twitter
+                jcr:primaryType="cq:Panel"
+                title="Twitter">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <username
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter username for twitter. Eg: @bostonsci"
+                        fieldLabel="Twitter Username"
+                        name="./twitterUname"
+                        xtype="textfield"/>
+                    <widgetid
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter Widget ID"
+                        fieldLabel="Widget ID"
+                        name="./widget"
+                        xtype="textfield"/>
+                </items>
+            </twitter>
+            <facebook
+                jcr:primaryType="cq:Panel"
+                title="Facebook">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <pageurl
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter facebook page url. Eg: https://www.facebook.com/BostonScientific"
+                        fieldLabel="Facebook Page url"
+                        name="./pageUrl"
+                        xtype="pathfield"/>
+                </items>
+            </facebook>
+            <linkedIn
+                jcr:primaryType="cq:Panel"
+                title="LinkedIn">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <linkedInUser
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter LinkedIn User. Eg: http://news.bostonscientific.com/news-alerts"
+                        fieldLabel="LinkedIn User"
+                        name="./pageUrlLinkedin"
+                        xtype="textfield"/>
+                </items>
+            </linkedIn>
+        </items>
+    </items>
+</jcr:root>

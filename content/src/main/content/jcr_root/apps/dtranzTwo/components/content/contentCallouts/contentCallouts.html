@@ -1,0 +1,39 @@
+<!-- CLIENT LIBRARY:content-callout -->
+<div data-sly-test.author="${wcmmode.edit || wcmmode.design}">
+	<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+	<meta data-sly-call="${clientlib.all @categories='dtranz:contentCallout'}" data-sly-unwrap></meta>
+</div>
+
+<!-- CLIENT LIBRARY END:content-callout -->
+
+
+
+
+<!-- COMPONENT: content-callout-row -->
+            <div class="content-callout-row">
+                <!-- COMPONENT: layout-component-three-three-col -->
+                <div class="layout-component three-col tablet-three-col">
+
+                    <div class="row" data-sly-use.co="org.kicker.aem.content.contentcallout.ContentCallout" data-sly-list="${co.calloutList}" >
+
+                        <div>
+                           	    <a 	  class="content-callout-item" href="${item.callToAction}" target="framename">
+
+                                <span class="callout-pretext">${item.intro}</span>
+                                <span class="callout-title">${item.title}</span> 
+                                <span class="callout-text">${item.description}</span> 
+                                <span class="callout-icon"><i class="fa fa-chevron-right"></i></span>
+								</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- COMPONENT END: layout-component-three-three-col -->
+            </div>
+         
+
+<!-- COMPONENT END: content-callout-row -->
+
+

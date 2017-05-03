@@ -1,0 +1,50 @@
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+<meta data-sly-call="${clientlib.all @categories='dtranz:customLib'}" data-sly-unwrap></meta>
+
+<div class="hiddenxs" style="display:none">
+	<div id="js-country-selector-window" class="country-selector-window">
+		<a class="js-country-window-close country-window-close" href="#"><i class="fa fa-times-circle"></i></a>
+		<div class="country-window-content js-country-selector-window-content">
+			<h4>Choose your country or region.</h4>
+
+<!-- COMPONENT: country-selector -->
+
+<div class="country-selector js-country-selector col-xs-12 js-country-selector-footer">
+	<div class="selected-country js-selected-country col-xs-12">
+		<a class="selected-country-link js-selected-country-link" href="#">
+			<img class="selected-country-icon img" src="../assets/img/icons/icon-map-usa.png" alt="United States of America" />
+			<span class="selected-country-name">USA</span>
+			<i class="fa fa-chevron-down"></i>
+		</a>
+	</div>
+	<ul class="country-list js-country-list">
+
+<!-- COMPONENT: country-selector-item -->
+
+<div data-sly-use.obj="org.kicker.aem.content.countryselector.CountrySelector" data-sly-unwrap>
+<div data-sly-list="${obj.countryList}" data-sly-unwrap>
+    <li class="country-item">
+		<a class="country-link" href="${item.url}.html">
+    <img class="country-icon img" src="${item.image}" alt="India" />
+    <span class="country-name">${item.text}</span>
+		</a>
+	</li>
+</div>
+</div>   
+
+
+<!-- COMPONENT END: country-selector-item -->
+
+<!-- COMPONENT: country-selector-item -->
+
+
+<!-- COMPONENT END: country-selector-item -->
+		
+
+	</ul>
+</div>
+<!-- COMPONENT END: country-selector -->
+		</div>
+	</div>
+</div>
+   

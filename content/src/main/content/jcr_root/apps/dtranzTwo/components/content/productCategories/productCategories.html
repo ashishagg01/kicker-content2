@@ -1,0 +1,87 @@
+<!-- CONTENT WELL -->
+<!-- COMPONENT: layout-component-two-col -->
+
+<!-- COMPONENT END: layout-component-two-col -->
+
+<!-- COMPONENT: results-product-finder -->
+		
+
+
+<!-- COMPONENT END: results-product-finder -->
+
+<!-- COMPONENT: product-specialties-filter -->
+		
+
+<div class="product-categories-filter clearfix">
+	
+<!-- COMPONENT: solution-filter -->
+
+<div class="solution-filter">
+	<label class="solution-filter-label">${properties.filterByText}</label>
+	<div class="solution-filter-field js-solution-filter-field">
+		<div class="solution-filter-selected js-solution-filter-selected">
+			<span class="solution-filter-selected-text js-solution-filter-selected-text">${properties.defaultDropdownText}</span>
+			<span class="solution-filter-arrow"><i class="fa fa-chevron-down"></i></span>
+		</div>
+		<ul class="solution-filter-option-list js-solution-filter-option-list" style="display:none">
+			<li class="solution-filter-option js-solution-filter-option" data-tag="">${properties.defaultDropdownText}</li>
+
+		</ul>
+	</div>
+</div>
+<!-- COMPONENT END: solution-filter -->
+
+<!-- COMPONENT: toggle -->
+
+<div class="toggle ">
+	<label class="toggle-label">${properties.viewByText}</label>
+	<ul class="toggle-options js-toggle-options clearfix">
+		<li><a href="#" class="active js-toggle-layout" data-layout="gallery">
+			<i class="fa fa-th"></i> 
+			 ${properties.galleryButtonText}		</a></li>
+		<li><a href="#" class="js-toggle-layout" data-layout="list">
+			<i class="fa fa-list"></i> 
+			${properties.listButtonText}	
+		</a></li>
+	</ul>
+</div>
+<!-- COMPONENT END: toggle -->
+</div>
+<!-- COMPONENT END: product-specialties-filter -->
+
+<!-- COMPONENT: product-specialties -->
+		
+
+<div class="product-categories product-specialties" data-sly-use.product="org.kicker.aem.content.productCategories.ProductCategories">
+	<h2><span class="product-categories-title">${properties.defaultDropdownText}</span> <span class="product-categories-count">(53)</span></h2>
+	<ul class="product-categories-list js-expandable-list js-changeable-layout clearfix gallery" data-default-shown="4" data-sly-list.productList="${product.productPages}">
+		
+<!-- COMPONENT: product-specialty-tile -->
+		
+
+<li class="product-tile product-specialty clearfix" data-tags="${productList.divIds}">
+	<a href="#" class="product-tile-image">
+		
+<!-- COMPONENT: responsive-image -->
+
+<img class="img img-responsive js-image-responsive " alt="Responsive Image Test"
+	src="${productList.carouselMedia}"
+                data-xssrc="${productList.carouselMedia}" 
+                data-hdxssrc="${productList.carouselMedia}" 
+                data-smsrc="${productList.carouselMedia}" 
+                data-hdsmsrc="${productList.carouselMedia}"
+                data-mdsrc="${productList.carouselMedia}"  
+                data-hdmdsrc="${productList.carouselMedia}"  />
+<!-- COMPONENT END: responsive-image -->
+	</a>
+	<div class="product-tile-content">
+		<h3><a href="${productList.pagePath}">${productList.pageTitle}</a></h3>
+		<p>${productList.productDesc}</p>
+	</div>
+	<ol class="product-tile-categories" data-sly-list="${productList.tagsList}">		
+		<li class="js-filter-option-name"><i class="fa fa-tag"></i>${item}</li>
+	</ol>
+</li>
+
+	</ul>
+</div>

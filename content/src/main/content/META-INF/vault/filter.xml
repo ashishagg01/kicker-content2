@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/dtranzTwo">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/etc/designs/dtranzTwo">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/etc/workflow/models/dtranz-activation-workflow">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/content/dtranzTwo">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/content/dam/dtranzTwo">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/etc/tags/bsc_categories">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/home/groups/dtranzTwo">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/apps/system/config/org.apache.sling.engine.impl.auth.SlingAuthenticator.config">
+		<exclude pattern=".vlt" />
+	</filter>	
+	<filter root="/apps/system/config/org.kicker.aem.content.service.ErrorPageConfig-73f6a1cf-f851-4c60-94e1-0a771a69ddf2.config">
+		<exclude pattern=".vlt" />	
+	</filter>		
+	<!--filter root="/apps/system/config/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider-0b7b3b7a-bfb1-4be5-aaa0-3705fbdb2bea.config">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/apps/system/config/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler-c387a4e7-b5dc-40f6-8d6b-25cdb671d2ee.config">
+		<exclude pattern=".vlt" />
+	</filter>
+	<filter root="/apps/system/config/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory-4f6915bf-d863-486e-b3dc-9480b9538576.config">
+		<exclude pattern=".vlt" />
+	</filter-->
+	<filter root="/apps/config.publish/com.day.cq.commons.servlets.RootMappingServlet">
+		<exclude pattern=".vlt" />
+	</filter>
+	
+</workspaceFilter>

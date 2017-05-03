@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <ticker
+                jcr:primaryType="cq:Panel"
+                title="Ticker">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <icon
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Choose an Icon to display on the left side"
+                        fieldLabel="Icon"
+                        name="./icon"
+                        rootPath="/"
+                        xtype="pathfield"/>
+                    <ticker
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click the '+' to add a new featured article"
+                        fieldLabel="Ticker Multifield"
+                        hideLabel="false"
+                        name="./ticker"
+                        title=""
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            hideLabel="true"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="tickerMultifield"/>
+                    </ticker>
+                </items>
+            </ticker>
+        </items>
+    </items>
+</jcr:root>

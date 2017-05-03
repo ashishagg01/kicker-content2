@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Atherectomy Systems"
+    jcr:lastModified="{Date}2015-09-07T11:09:47.813+05:30"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Atherectomy Systems"
+    sling:resourceType="cq/tagging/components/tag">
+    <pain_medicine/>
+    <pulmonology/>
+    <urology/>
+</jcr:root>

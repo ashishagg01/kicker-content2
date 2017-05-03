@@ -1,0 +1,44 @@
+<nav class="left-nav">
+	<ul class="left-nav-main-level">
+
+		<!-- Parent Page -->
+		<li class="link-parent">
+            <a href="${currentPage.getParent.path}.html"> 
+				<i class="fa fa-circle"></i>
+				<span class="left-nav-link-text" data-sly-text="${(currentPage.getParent.navigationTitle==null || currentPage.getParent.navigationTitle=='') ? currentPage.getParent.title : currentPage.getParent.navigationTitle}" />
+			</a>
+		</li>
+
+		<!-- Checking Current Page -->
+		<div data-sly-test="${currentPage.listChildren}" data-sly-unwrap>      
+			<li class="link-self">
+				 <a href="${currentPage.path}.html">
+					<i class="fa fa-circle"></i>
+					<span class="left-nav-link-text" data-sly-text="${(currentPage.navigationTitle==null || currentPage.navigationTitle=='') ? currentPage.title : currentPage.navigationTitle}" />
+				 </a>
+			</li>
+
+			<!-- Current Page List Children -->
+			<div data-sly-list.child="${currentPage.listChildren}" data-sly-unwrap>     
+			<li class="link-child bullet" data-sly-test="${!child.hideInNav}">
+				<a href="${child.path}.html"> 
+					<i class="fa fa-circle"></i>
+					<span class="left-nav-link-text" data-sly-text="${(child.navigationTitle==null || child.navigationTitle=='') ? child.title : child.navigationTitle}" />
+				</a>
+			 </li>
+			 </div>
+	   </div>
+
+		<!-- Checking Current Page Peers -->
+	   <div data-sly-test="${!currentPage.listChildren}" data-sly-list.peers="${currentPage.getParent.listChildren}" data-sly-unwrap>    
+           <div data-sly-test="${!peers.hideInNav}" data-sly-unwrap>
+				<li class="link-child bullet ${peers.title == currentPage.title ? 'active' : ''}">
+				<a href="${peers.path}.html"> 
+					<i class="fa fa-circle"></i>
+					<span class="left-nav-link-text" data-sly-text="${(peers.navigationTitle==null || peers.navigationTitle=='') ? peers.title : peers.navigationTitle}" />
+				</a>
+				</li>    
+			</div>
+		</div>
+	</ul>
+</nav>

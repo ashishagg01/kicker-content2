@@ -1,0 +1,60 @@
+<!-- CLIENT LIBRARY:dtranz:featuredMedia -->
+
+	<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+	<meta data-sly-call="${clientlib.all @categories='dtranz:featuredMedia'}" data-sly-unwrap></meta>
+
+
+<!-- CLIENT LIBRARY END:dtranz:featuredMedia -->
+
+<section class="feature-content-video-carousel carousel clearfix">
+	<div class="carousel-nav">
+		<a href="#" class="carousel-nav-prev"><span class="fa fa-angle-left"></span></a>
+		<a href="#" class="carousel-nav-next"><span class="fa fa-angle-right"></span></a>
+	</div>
+	<div class="carousel-container" data-sly-use.media="org.kicker.aem.content.featuredmedia.FeaturedMedia" >
+		<ul class="carousel-slides" data-sly-list="${media.featMedList}" >
+			<li class="carousel-slide">
+
+				<div class="feature-content-video-carousel-contents">
+					<a href="${item.FMcallToAction}" class="fancybox-media img feature-content-video-carousel-wrap">
+
+<!-- COMPONENT: responsive-image -->
+
+<img class="img img-responsive js-image-responsive feature-content-video-carousel-img" alt="Responsive Image Test"
+	src="${item.FMvideo}"
+	data-xssrc="${item.FMvideo}"
+	data-hdxssrc="${item.FMvideo}"
+	data-smsrc="${item.FMvideo}"
+	data-hdsmsrc="${item.FMvideo}"
+	data-mdsrc="${item.FMvideo}"
+	data-hdmdsrc="${item.FMvideo}" />
+<!-- COMPONENT END: responsive-image -->
+
+<!-- COMPONENT: video-icon-overlay -->
+
+<span class="play-icon-overlay">
+
+<!-- COMPONENT: responsive-image -->
+
+<img class="img img-responsive js-image-responsive play-icon-img" alt="Responsive Image Test"
+	src="${item.FMimage}"
+	data-xssrc="${item.FMimage}"
+	data-hdxssrc="${item.FMimage}"
+	data-smsrc="${item.FMimage}"
+	data-hdsmsrc="${item.FMimage}"
+	data-mdsrc="${item.FMimage}"
+	data-hdmdsrc="${item.FMimage}" />
+<!-- COMPONENT END: responsive-image -->
+</span>
+<!-- COMPONENT END: video-icon-overlay -->
+					</a>
+					<p class="banner"><span>${item.FMtitle}</span></p>
+					<p class="text">${item.FMintro}</p>
+					<a href="${item.FMcallToAction}" class="fancybox-media watch">${item.FMcallToActionText}<span class="arrows"><i class="fa fa-angle-right"></i></span></a>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+</section>
+

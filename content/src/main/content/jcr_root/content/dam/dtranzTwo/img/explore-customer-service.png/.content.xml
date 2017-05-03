@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="49a07378-8378-48b3-aad8-68aabbaecb31">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T12:03:41.293+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="explore-customer-service.png"
+        cq:parentPath="/content/dam/dtranzTwo/img"
+        dam:lastInvalidateCache="{Date}2015-09-18T09:21:18.185+05:30"
+        dam:s7damAnchorX="{Long}110"
+        dam:s7damAnchorY="{Long}110"
+        dam:s7damHeight="{Long}220"
+        dam:s7damImageCopyPath="C:\\Users\\PARAGB~1.GAR\\AppData\\Local\\Temp\\scene77552763945465475766.tmp"
+        dam:s7damType="Image"
+        dam:s7damWidth="{Long}220"
+        jcr:lastModified="{Date}2015-09-18T09:21:35.801+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2015-08-24T13:44:51.874+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}3.0562517642974854"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}3.0562517642974854"
+            dam:Progressive="no"
+            dam:sha1="da3b62fed7dffa4b7f32207ef52aef5d21be7dae"
+            dam:size="{Long}136671"
+            dc:format="image/png"
+            dc:modified="{Date}2015-09-18T09:21:04.073+05:30"
+            jcr:lastModified="{Date}2015-09-18T09:21:04.073+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}220"
+            tiff:ImageWidth="{Long}220"
+            writebackEnable="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

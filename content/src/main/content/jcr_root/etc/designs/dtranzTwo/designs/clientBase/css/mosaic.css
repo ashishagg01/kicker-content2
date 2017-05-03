@@ -1,0 +1,405 @@
+/* these files only affect mosaic.html */
+.mosaic-container {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    line-height: 0;
+    width: 940px;
+    float: left;
+}
+/* MOBILE for top blue nav */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .mobile-scroll-box nav[data-type="thin-nav"] ul li {
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------- */
+/* START: Mosaic */
+/* ---------------------------------------- */
+.mosaic {
+    clear: both;
+    display: inline-block;
+}
+
+.no-mosaic-message {
+    display: none;
+}
+
+.mosaic-full-tall.left-container {
+    width: 50%;
+    float: left;
+}
+
+.mosaic-full-tall.right-container {
+    width: 50%;
+    float: right;
+}
+
+.slick-dots li.slick-active span {
+    color: #44BCFF;
+}
+
+.slick-dots li span {
+    color: #FFF;
+}
+
+.mosaic-carousel-item .mosaic-carousel-item-title {
+    position: absolute;
+    top: 20px;
+    margin: 0 20px;
+    max-width: 90% !important;
+    width: auto;
+    padding: 0 !important;
+    border: none !important;
+    font-size: inherit !important;
+    vertical-align: bottom;
+}
+
+.mosaic-carousel-item-title > h1 {
+    font-size: 72px;
+    line-height: 65px;
+    letter-spacing: -.023em;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+}
+
+.mosaic-carousel-item-title > h2 {
+    font-size: 34px;
+    font-weight: normal;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+}
+
+.mosaic-carousel-item-title > h1, .mosaic-carousel-item-title > h2, .mosaic-carousel-item-description > h3, .mosaic-carousel-item-description > p {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    letter-spacing: -.018em;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+}
+
+td[mosaic-carousel-item-title="black"] .mosaic-carousel-item-title > h1, td[mosaic-carousel-item-title="black"] .mosaic-carousel-item-title > h2, td[mosaic-carousel-item-title="black"] .mosaic-carousel-item-description > h3, td[mosaic-carousel-item-title="black"] .mosaic-carousel-item-description .mosaic-carousel-item-description.description-bg > h3, .mosaic-carousel-item-description > p, td.mosaic-carousel-item-title[data-title-background="black"] > h1, td[data-description-background="black"] > h3 {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    letter-spacing: -.018em;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+}
+
+.mosaic-carousel-item-description > h3 {
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: normal;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+}
+
+.mosaic-carousel-item .mosaic-carousel-item-description {
+    width: auto;
+    padding: 0;
+    border: none !important;
+    font-size: inherit !important;
+    vertical-align: bottom;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.mosaic-carousel-item-description > p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    float: left;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+}
+
+.mosaic-cta-container a.go-link {
+    border: 2px solid #44bcff;
+    border-radius: 50%;
+    bottom: -4px;
+    display: block;
+    float: right;
+    font-size: 1em;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+}
+
+.mosaic-cta-container .go-link .fa.fa-angle-right {
+    color: #44bcff;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+
+.mosaic-cta-container .video-icon {
+    background: url("../img/icons/icon-video-play_60.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    bottom: -4px;
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+.mosaic-carousel-item-anchor {
+    color: inherit;
+    font: inherit;
+    display: inline;
+}
+
+.mosaic-carousel-item-anchor:hover {
+    text-decoration: none;
+}
+
+.mosaic-carousel-item .mosaic-carousel-item-description-container {
+    bottom: 20px;
+    position: absolute;
+    border: none !important;
+    margin-left: 20px;
+}
+
+.mosaic-carousel-item-description-container .mosaic-cta-container {
+    width: 80px;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.mosaic-carousel-item table {
+    border: none !important;
+}
+
+.slick-dots {
+    bottom: 10px !important;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    margin: 0 4px;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+.mosaic-cta-container .image-preview-link {
+    bottom: 0;
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+.mosaic-cta-container .image-preview-link i.fa-search {
+    border: 0 solid #48b8d2;
+    border-radius: 0;
+    color: #48b8d2;
+    font-size: 40px;
+    margin: 2px 0 0;
+}
+
+.mosaic-carousel-item-description-container h3 sup {
+    font-size: 37%;
+    top: -17px;
+}
+.mosaic-carousel-item-description > p > sup {
+    font-size: 45%;
+    top: -8px;
+}
+
+.mosaic-carousel-item-title[data-title-background="black"], .mosaic-carousel-item-description[data-description-background="black"] {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------------------------------- */
+/* TABLET */
+/* ---------------------------------------- */
+@media (min-width: 600px) and (max-width: 959px) {
+    .slick-dots li {
+        font-size: 1em;
+        height: 14px;
+        margin: 0 2px;
+    }
+    .mosaic-carousel-item-description-container h3 sup {
+        top: -12px;
+    }
+    .mosaic-carousel-item-description > p {
+        line-height: 17px;
+    }
+    .mosaic-carousel-item .description-bg {
+        margin-bottom: 10px;
+    }
+
+    .mosaic-carousel-item-title > h1 {
+        font-size: 47px;
+        font-family: Arial, sans-serif;
+        line-height: 41px;
+    }
+
+    .mosaic-carousel-item-title > h2 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .mosaic-carousel-item-description > h3 {
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -.023em;
+        font-weight: normal;
+    }
+
+    .mosaic-carousel-item-title > h1, .mosaic-carousel-item-title > h2, .mosaic-carousel-item-description > h3, .mosaic-carousel-item-description > p {
+        padding: 6px;
+        font-weight: normal;
+    }
+
+    .mosaic-carousel-item .mosaic-carousel-item-title {
+        margin-left: 10px;
+        top: 10px;
+    }
+
+    .mosaic-carousel-item .mosaic-carousel-item-description-container {
+        margin-left: 10px;
+    }
+
+    .mosaic-cta-container .video-icon {
+        background: url("../img/icons/icon-video-play_40.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        height: 40px;
+        width: 40px;
+        right: 5px;
+    }
+
+    .mosaic-carousel-item-description-container .mosaic-cta-container {
+        width: 50px;
+    }
+
+    .mosaic-cta-container a.go-link {
+        right: 5px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .mosaic-container {
+        width: 100%;
+    }
+
+    .mosaic-cta-container .go-link .fa.fa-angle-right {
+        padding-top: 3px;
+    }
+
+    .mosaic-cta-container .image-preview-link i.fa-search {
+        font-size: 32px;
+    }
+}
+
+/* ---------------------------------------- */
+/* MOBILE */
+/* ---------------------------------------- */
+@media (max-width: 599px) {
+    .mosaic-container, .mosaic-full-tall.left-container, .mosaic-full-tall.right-container {
+        width: 100%;
+    }
+
+    .mosaic-carousel-container.tall-left {
+        margin-bottom: -4px;
+    }
+
+    .slick-dots li {
+        font-size: 1.1em;
+        height: 14px;
+        margin: 0 2px;
+    }
+
+    .mosaic-carousel-item-title > h1 {
+        font-size: 47px;
+        line-height: 47px;
+        letter-spacing: -0.023em;
+        font-weight: normal;
+    }
+
+    .mosaic-carousel-item-title > h2 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .mosaic-carousel-item-description > h3 {
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.023em;
+    }
+
+    .mosaic-carousel-item-title > h1, .mosaic-carousel-item-title > h2, .mosaic-carousel-item-description > h3, .mosaic-carousel-item-description > p {
+        padding: 6px;
+        font-weight: normal;
+    }
+
+    .mosaic-carousel-item .mosaic-carousel-item-title {
+        margin-left: 10px;
+        top: 10px;
+    }
+
+    .mosaic-carousel-item .mosaic-carousel-item-description-container {
+        margin-left: 10px;
+    }
+
+    .mosaic-cta-container .video-icon {
+        background: url("../img/icons/icon-video-play_40.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        height: 40px;
+        width: 40px;
+        right: 7px;
+    }
+
+    .mosaic-carousel-item-description-container .mosaic-cta-container {
+        width: 50px;
+    }
+
+    .mosaic-cta-container a.go-link {
+        right: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .mosaic-cta-container .image-preview-link i.fa-search {
+        font-size: 32px;
+        right: 7px;
+    }
+
+    .mosaic-cta-container .go-link .fa.fa-angle-right {
+        padding-top: 3px;
+    }
+}
+
+@media (min-width : 375px) and (max-width : 667px) and (orientation : landscape) {
+    .mosaic-container, .mosaic-full-tall.left-container, .mosaic-full-tall.right-container {
+        width: 100%;
+    }
+
+    .mosaic-container .img-responsive {
+        width: 100%;
+    }
+}
+/* ---------------------------------------- */
+/* END: Mosaic */
+/* ---------------------------------------- */

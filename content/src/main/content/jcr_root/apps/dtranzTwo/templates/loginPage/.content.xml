@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Login Page"
+    jcr:primaryType="cq:Template"
+    jcr:title="Login Page"
+    allowedPaths="[/content/[^/]+(/.*)?]"
+    ranking="{Long}10">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-21T11:22:04.119+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="dtranzTwo/components/page/display/loginPage"/>
+</jcr:root>

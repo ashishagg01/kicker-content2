@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    title="Site Survey"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <jscript
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Add the survey script here"
+            name="./surveyjavascript"
+            xtype="textarea"/>
+    </items>
+</jcr:root>

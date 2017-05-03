@@ -1,0 +1,25 @@
+<div class="template template-d">
+    <div class="container main">
+            <!-- CONTENT WELL -->
+
+			<!-- COMPONENT: ticker-story -->
+                <div data-sly-resource="${'ticker' @resourceType='dtranzTwo/components/content/ticker'}" data-sly-unwrap></div>
+			<!-- COMPONENT END: ticker -->
+
+            <!-- COMPONENT: masthead-carousel-rollover --> 
+				 <div data-sly-resource="${'homepageCarousel' @resourceType='dtranzTwo/components/content/homepageCarousel'}" data-sly-unwrap></div>
+            <!-- COMPONENT END: masthead-carousel-rollover -->
+
+            <!-- COMPONENT: content-callout-row -->         
+				<div data-sly-resource="${'contentCallouts' @resourceType='dtranzTwo/components/content/contentCallouts'}" data-sly-unwrap></div>
+            <!-- COMPONENT END: content-callout-row -->
+
+                <!-- Main Content ParSys -->
+           		<div data-sly-resource="${'main-content' @resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap></div>
+
+
+
+            <!-- END CONTENT WELL -->
+        </div>
+
+</div>

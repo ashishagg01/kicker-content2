@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:48.760+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:15.545+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/Boston_Scientific_Product_Scaffolding"
+        cq:tags="[bsc_categories:access_device_Dilatation/electrophysiology,bsc_categories:accessories]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DEXTRUS™ Pacing Lead"
+        jcr:uuid="e0c7fb0c-b33a-4ce1-a06a-083165611867"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <productHeader
+            jcr:lastModified="{Date}2015-09-07T16:56:39.616+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            carouselMedia="/content/dam/dtranzTwo/Products/Leads/DEXTRUS_960x960.image.460.0.jpg"
+            exploresectiontitle="Explore"
+            lighttitle="Pacing Lead"
+            productButtonLink="#"
+            productButtonText="request a salesrep"
+            productCarousel="\{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/leads/DEXTRUS_960x960.image.460.0.jpg&quot;,&quot;carouselDescription&quot;:&quot;&quot;,&quot;carouselIsVideo&quot;:false}"
+            productDesc="The DEXTRUS pacing lead is an extendable-retractable, active fixation 6.7F lead designed to provide a larger electrically-active surface area for enhanced threshold performance. The lead features a familiar feel with durable and predictable helix extension-retraction performance and an inner coil designed for predictable torque response. The DEXTRUS lead is designed for an easy lead implant experience with mapping capability, a radiopaque helix and tip extension indicator and a flexible tip designed for flexible placement options within the right atrium and right ventricle."
+            productResourcesTitle="Key Resources"
+            title="DEXTRUS™ Pacing Lead"/>
+    </jcr:content>
+</jcr:root>

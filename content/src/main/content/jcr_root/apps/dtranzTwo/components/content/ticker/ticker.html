@@ -1,0 +1,29 @@
+<!-- Including Component specific javascript file -->
+
+<div data-sly-test.author="${wcmmode.edit || wcmmode.design}">
+	<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap></section>
+	<meta data-sly-call="${clientLib.all @ categories='dtranz:ticker'}" data-sly-unwrap></meta>
+</div>
+<!-- end -->
+
+<!-- COMPONENT: ticker -->
+<div class="ticker js-ticker" data-delay="5000">
+	<ul class="js-ticker-list ticker-list" data-sly-use.ticker="org.kicker.aem.content.ticker.Ticker" data-sly-list="${ticker.tickerItems}">
+		<!-- COMPONENT: ticker-story -->
+		<li>
+			<span class="rss-icon">
+				<!-- COMPONENT: responsive-image -->
+				<img class="img img-responsive js-image-responsive " alt="Responsive Image Test"
+					src="${properties.icon}"/>
+				<!-- COMPONENT END: responsive-image -->
+			</span>
+			<a class="ticker-story" href="#">${item.headline}</a> 
+			<span class="arrow-icon">
+				<i class="fa fa-chevron-right"></i>
+			</span>
+			<a class="view-all" href="${item.callToAction}">${item.callToActionText}</a> 
+		</li>
+		<!-- COMPONENT END: ticker-story -->
+	</ul>
+</div>
+<!-- COMPONENT END: ticker -->

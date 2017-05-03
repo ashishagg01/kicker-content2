@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="menu"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <menus
+                jcr:primaryType="cq:Panel"
+                fieldDescription="Click the '+' to add a new menu item"
+                title="Menu">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <menu
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click the '+' to add a new menu item"
+                        fieldLabel="Menu"
+                        name="./menus"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="mynavpath"/>
+                        <listeners jcr:primaryType="nt:unstructured"/>
+                    </menu>
+                </items>
+            </menus>
+        </items>
+    </items>
+</jcr:root>

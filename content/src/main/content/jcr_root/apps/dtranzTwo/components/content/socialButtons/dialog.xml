@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    selectionchanged="function(comp, val, isChecked) {&#xa;    var panel = comp.findParentByType(&quot;dialog&quot;); //find the parent panel container&#xa;    var rdg = panel.getComponent(&quot;imageurl&quot;); //find the component with itemId rdg&#xa;&#xa;    /*hide or show component based on checked value */&#xa;    isChecked ? rdg.hide() : rdg.show(); &#xa;}"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <socialButtons
+                jcr:primaryType="cq:Panel"
+                fieldDescription="Click the '+' to add a new social button"
+                title="Social Button">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <socialButton
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click the '+' to add a new social button"
+                        fieldLabel="Social Button"
+                        name="./socialButton"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="SocialButtonMultifield"/>
+                        <listeners jcr:primaryType="nt:unstructured"/>
+                    </socialButton>
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the share Text Eg: Share"
+                        fieldLabel="Share Text:"
+                        name="./shareText"
+                        xtype="textfield"/>
+                </items>
+            </socialButtons>
+            <mail
+                jcr:primaryType="cq:Panel"
+                fieldDescription="Click the '+' to add a new social button"
+                title="Mail">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <maito
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Enter the receipant id"
+                        fieldLabel="Mail To:"
+                        name="./mailto"
+                        xtype="textfield"/>
+                    <subject
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the subject"
+                        fieldLabel="Subject:"
+                        name="./subject"
+                        xtype="textfield"/>
+                    <imagetype
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Please Select"
+                        name="./msgImageType"
+                        type="radiogroup"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <option1
+                                jcr:primaryType="cq:Widget"
+                                id="imagecss"
+                                name="./imagecss"
+                                text="Image CSS"
+                                value="imagecss"/>
+                            <option2
+                                jcr:primaryType="cq:Widget"
+                                id="imageurl"
+                                name="./imageurl"
+                                text="Image URL"
+                                value="imageurl"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            selectionchanged="function(selection, record, path) {&#xa;    var dialog = selection.findParentByType('dialog');&#xa;    var radioDialog = dialog.getField('./msgImageType');&#xa;    var radioDialogValue = radioDialog.getValue();&#xa;    var mailImage = dialog.getField('./mailImage');&#xa;    var mailCss = dialog.getField('./mailCss');&#xa;    if (radioDialogValue == 'imageurl') {&#xa;        mailCss.hide();&#xa;        mailCss.setValue(&quot;&quot;);&#xa;        mailImage.show();&#xa;    }&#xa;    if (radioDialogValue == 'imagecss') {&#xa;        mailImage.hide();&#xa;        mailImage.setValue(&quot;&quot;);&#xa;        mailCss.show();&#xa;    }&#xa;&#xa;}"/>
+                    </imagetype>
+                    <imagecss
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Select the mail image css"
+                        fieldLabel="Image CSS:"
+                        name="./mailCss"
+                        xtype="textfield"/>
+                    <image
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Select the mail image"
+                        fieldLabel="Image:"
+                        name="./mailImage"
+                        xtype="pathfield"/>
+                </items>
+            </mail>
+        </items>
+    </items>
+</jcr:root>

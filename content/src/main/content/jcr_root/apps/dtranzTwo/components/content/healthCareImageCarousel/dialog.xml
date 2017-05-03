@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dailog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <carousel
+                jcr:primaryType="cq:Panel"
+                title="Carousel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <product-carousel
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="front Carousel field description"
+                        fieldLabel="Carousel"
+                        name="./imageCarousel"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            hideLabel="true"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="multi-field-panel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <title
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="true"
+                                    dName="title"
+                                    fieldDescription="Enter Title"
+                                    fieldLabel="Image Title"
+                                    name="./title"
+                                    xtype="textfield"/>
+                                <description
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="true"
+                                    dName="description"
+                                    fieldDescription="Enter a short description for the image"
+                                    fieldLabel="Description"
+                                    name="./description"
+                                    validation="optional"
+                                    xtype="textfield"/>
+                                <media
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="media"
+                                    fieldDescription="Select an image or video"
+                                    fieldLabel="Media"
+                                    name="./media"
+                                    type="select"
+                                    validation="required"
+                                    width="200"
+                                    xtype="pathfield"/>
+                            </items>
+                        </fieldConfig>
+                    </product-carousel>
+                </items>
+            </carousel>
+        </items>
+    </items>
+</jcr:root>

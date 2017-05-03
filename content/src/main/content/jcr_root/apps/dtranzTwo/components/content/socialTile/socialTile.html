@@ -1,0 +1,59 @@
+<script>
+   function wd_tab_select(divId) {
+		document.getElementById("js-facebook-feed").style.display = "none";
+        document.getElementById("js-twitter-feed").style.display = "none";
+        document.getElementById("js-linkedin-feed").style.display = "none";
+        document.getElementById(divId).style.display = "block";
+   }
+</script>
+
+<div class="social-tile">
+
+	<ul class="social-media-tabs">
+	   <li>
+			<a href="#"  class="js-social-media-option active" onclick="wd_tab_select('js-twitter-feed');">
+				<i class="fa fa-twitter"></i>
+			</a>
+	   </li>
+	   <li>
+			<a href"#" class="js-social-media-option" onclick="wd_tab_select('js-facebook-feed');">
+				<i class="fa fa-facebook"></i>
+			</a>
+	   </li>
+	   <li>
+			<a href"#" class="js-social-media-option" onclick="wd_tab_select('js-linkedin-feed');">
+				<i class="fa fa-linkedin"></i>
+			</a>
+	   </li>
+	</ul>
+	
+	<div class="social-media-feed clearfix">
+	   <div>
+			<!-- Twitter tile-->
+			<div id="js-twitter-feed" style="display:block;">
+				<a class="twitter-timeline" href="https://twitter.com/${properties.twitterUname}" data-widget-id="${properties.widget}" height="393">Tweets by ${properties.twitterUname}</a>
+				<script>
+					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+				</script>
+			</div>
+
+			<!-- Facebook tile-->
+			<div id="js-facebook-feed" style="display:none;">
+				<iframe src="http://www.facebook.com/plugins/likebox.php?href=${properties.pageUrl}&header=false&width=205&height=362&show_faces=false&stream=true&colorscheme=light&border_color=%23ffffff&locale=en_US" 
+					scrolling="no" frameborder="0"
+					style="border:none; overflow:hidden; width:205px; height:362px;" allowtransparency="true" title="Facebook Like Box">
+			 	</iframe>
+			</div>
+
+			<!-- Linkedin tile-->
+			<div id="js-linkedin-feed" style="display:none;">
+                <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+				<script type="IN/FollowCompany" data-id="1637" data-counter="right"></script>
+				<a href="${properties.pageUrlLinkedin}" class="body-link">
+					<img src="/etc/designs/dtranzTwo/designs/clientBase/assets/img/icons/news-feed-header.png">Subscribe to News Alerts
+				</a>
+			</div>
+	   </div>
+	</div>
+
+</div>

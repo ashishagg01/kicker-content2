@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastModified="{Date}2015-08-24T11:41:21.627+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:47:41.665+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="image-gallery"/>
+    <_x0030_1.png/>
+    <_x0030_3.png/>
+    <_x0030_5.png/>
+    <featured-article-img.png/>
+    <_x0030_4.png/>
+    <digital-asset-generic.png/>
+    <featured-article-img-2.png/>
+    <_x0030_6.png/>
+    <_x0030_2.png/>
+    <featured-article-img-hd.png/>
+    <solution-block-tile1.png/>
+    <solution-block-tile2.png/>
+    <featured-article-img-hd-2.png/>
+    <solution-block-tile4.png/>
+    <featured-article-img-3.png/>
+    <solution-block-tile3.png/>
+    <medicalspecialtiesheader.jpg/>
+    <featured-article-img-hd-3.png/>
+</jcr:root>

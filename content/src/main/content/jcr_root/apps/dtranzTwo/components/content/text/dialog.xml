@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Text"
+    title="Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <txtTab
+                jcr:primaryType="cq:Panel"
+                title="Text">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        hideLabel="{Boolean}true"
+                        name="./richTxtEditor"
+                        xtype="richtext">
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="[cut,copy,paste-plaintext]"
+                                name="edit"/>
+                            <findreplace
+                                jcr:primaryType="nt:unstructured"
+                                features="*"
+                                name="findreplace"/>
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                features="*"
+                                name="image"/>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="[specialchars,sourceedit]"
+                                id="misc"
+                                name="misctools">
+                                <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                    <chars
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;#8224;">
+                                        <trademark
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#8482; "/>
+                                        <registered_trademark
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#174; "/>
+                                        <copyright
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#169;"/>
+                                        <lessorequal
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#8804;"/>
+                                        <greaterorequal
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#8805; "/>
+                                        <degree
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#176; "/>
+                                        <plusorminus
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#177;"/>
+                                        <dagger jcr:primaryType="nt:unstructured"/>
+                                    </chars>
+                                </specialCharsConfig>
+                            </misctools>
+                            <paraformat
+                                jcr:primaryType="nt:unstructured"
+                                features="*"
+                                name="paraformat"/>
+                            <spellcheck
+                                jcr:primaryType="nt:unstructured"
+                                features="*"
+                                name="spellcheck"/>
+                            <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="[subscript,superscript]"
+                                name="subsuperscript"/>
+                            <undo
+                                jcr:primaryType="nt:unstructured"
+                                features="*"
+                                name="undo"/>
+                            <table
+                                jcr:mixinTypes="[rep:AccessControllable]"
+                                jcr:primaryType="nt:unstructured"
+                                features="[table,removetable,insertrow,removerow,insertcolumn,removecolumn,mergecells,splitcell,selectrow,selectcolumns]"
+                                name="table"/>
+                            <styles
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                        </rtePlugins>
+                        <isRichTextFlag
+                            jcr:primaryType="cq:Widget"
+                            ignoreData="{Boolean}true"
+                            name="./textIsRich"
+                            value="true"
+                            xtype="hidden"/>
+                    </text>
+                </items>
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    beforeedit="function() { console.log(&quot;test&quot;) }"/>
+            </txtTab>
+            <stylesTab
+                jcr:primaryType="cq:Panel"
+                title="Styles">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <styles
+                        jcr:primaryType="cq:Widget"
+                        hideLabel="{Boolean}true"
+                        name="./style"
+                        type="select"
+                        xtype="selection"/>
+                </items>
+            </stylesTab>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-05T14:40:43.384+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:21.318+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/dtranzTwo/templates/subsectionLandingPage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Atrial Fibrillation"
+        jcr:uuid="4f43de35-ea76-4362-9308-52fc51725684"
+        sling:resourceType="dtranzTwo/components/page/display/subsectionLandingPage">
+        <masthead-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <imagecarousel
+                jcr:created="{Date}2015-09-18T11:05:04.263+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T11:05:49.674+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/imageCarousel"
+                description="I have confidence again that I can do what I want to do."
+                imageCarousel="\{&quot;title&quot;:&quot;FEATURED TREATMENT&quot;,&quot;description&quot;:&quot;I have confidence again that I can do what I want to do.&quot;,&quot;media&quot;:&quot;/content/dam/dtranzTwo/img/Atrial-D-KnowlesCarousel.image.690.0.jpg&quot;}"
+                media="/content/dam/dtranzTwo/img/Atrial-D-KnowlesCarousel.image.690.0.jpg"
+                title="FEATURED TREATMENT"/>
+        </masthead-par>
+        <title
+            jcr:lastModified="{Date}2015-10-05T13:21:21.161+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/title"
+            pageTitle="Atrial Fibrillation"/>
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <subtitle
+                jcr:created="{Date}2015-09-18T11:06:41.769+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T11:07:03.542+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/subtitle"
+                selectType="h2"
+                text="Description"/>
+            <text_0
+                jcr:created="{Date}2015-09-18T11:08:02.146+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T13:23:46.197+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;p>Atrial fibrillation (AF) is a heart condition where the upper chambers of the heart (atria) beat too fast and with chaotic rhythm (fibrillation). This condition can cause blood to pool and form clots in an area of the heart called the left atrial appendage (LAA). If a blood clot travels through an artery to the brain, it can cause a stroke. People with atrial fibrillation have a much greater risk of stroke.1&lt;/p>&#xa;"/>
+            <subtitle_0
+                jcr:created="{Date}2015-09-18T11:11:18.393+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T11:11:37.975+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/subtitle"
+                selectType="h2"
+                text="Causes and Risk Factors"/>
+            <text
+                jcr:created="{Date}2015-09-18T11:12:27.764+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T14:36:23.662+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;p>Atrial fibrillation is caused by an abnormality in your heart's electrical system. The underlying cause of atrial fibrillation varies from person to person.&amp;nbsp;The abnormal electrical signals can result from : Aging, Coronary artery disease (CAD), High blood pressure, Heart valve disease, Heart failure, etc.&lt;/p>&#xa;"/>
+            <subtitle_1
+                jcr:created="{Date}2015-09-18T11:12:03.604+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T11:12:16.311+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/subtitle"
+                selectType="h2"
+                text="Symptoms"/>
+            <text_1
+                jcr:created="{Date}2015-09-18T11:13:36.275+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T14:36:42.185+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;p>People with atrial fibrillation sometimes suffer from symptoms including palpitations, dizziness, fainting, shortness of breath, chest pain, impaired exercise tolerance, and fatigue, which lower their quality of life. However, it is possible to experience atrial fibrillation and feel no symptoms.&lt;/p>&#xa;"/>
+            <subtitle_2
+                jcr:created="{Date}2015-09-18T11:14:33.851+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T11:14:42.300+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/subtitle"
+                selectType="h2"
+                text="Diagnosis"/>
+            <text_2
+                jcr:created="{Date}2015-09-18T11:14:53.890+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T14:37:10.268+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;p>A reliable way to diagnose AF is to record an electrocardiogram (ECG) during an episode of AF. But AF episodes can be unpredictable, so an ECG recorded at your doctor’s office may&amp;nbsp;appear to be normal.&lt;/p>&#xa;&lt;p>If this happens, your doctor may ask you to wear a portable monitor, such as an event monitor, or a Holter monitor, to record your heart’s electrical signals. Your doctor will then analyze the monitor recordings to determine if you have AF.&lt;/p>&#xa;"/>
+            <subtitle_3
+                jcr:created="{Date}2015-09-18T11:15:14.236+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-18T11:16:04.717+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/subtitle"
+                selectType="h2"
+                text="Treatment"/>
+            <text_3
+                jcr:created="{Date}2015-09-18T11:15:33.168+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T14:40:43.378+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;p>A number of treatments are available for AF. Your doctor will help you choose a treatment based on your heart’s rhythm, your symptoms, and any other medical conditions you may have. &amp;nbsp;&lt;/p>&#xa;&lt;p>No matter which AF treatment you receive, the goals may include : Regaining normal heart rhythm, Controlling your heart rate, Reducing stroke risk.&lt;/p>&#xa;&lt;p>The WATCHMAN Left Atrial Appendage Closure (LAAC) Implant is a non-drug option to reduce stroke risk for AF patients who are considered suitable for warfarin but have reason to seek an alternative.&lt;/p>&#xa;&lt;p>Atrial fibrillation can cause blood to pool in an area of the heart called the left atrial appendage (LAA).&lt;/p>&#xa;&lt;p>If a blood clot travels through an artery to the brain, it can cause a stroke.&lt;/p>&#xa;&lt;p>Blood thinners, such as warfarin, can reduce stroke risk, however these medications may not be well tolerated by everyone.&lt;/p>&#xa;&lt;p>WATCHMAN LAAC closes off the left atrial appendage to reduce stroke risk.&lt;/p>&#xa;"/>
+        </content-par>
+        <rightrail-ipar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys">
+            <socialbuttons
+                jcr:created="{Date}2015-09-28T13:21:51.040+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T14:02:22.663+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/socialButtons"
+                mailImage="/content/dam/dtranzTwo/img/message-icon.PNG"
+                msgImageType="imageurl"
+                shareText="Share"
+                socialButton="[{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/twitter-icon.PNG&quot;\,&quot;url&quot;:&quot;https://twitter.com/intent/tweet&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/facebook-icon.PNG&quot;\,&quot;url&quot;:&quot;https://www.facebook.com/sharer/sharer.php&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/linkedin-icon.PNG&quot;\,&quot;url&quot;:&quot;https://www.linkedin.com/cws/share&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;}]"
+                subject="Thought This Would be Interesting for You"/>
+            <socialtile
+                jcr:created="{Date}2015-09-28T13:22:05.988+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T13:22:34.627+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/socialTile"
+                pageUrl="https://www.facebook.com/BostonScientific"
+                pageUrlLinkedin="http://news.bostonscientific.com/news-alerts"
+                twitterUname="@bostonsci"
+                widget="643714964738314241"/>
+            <text
+                jcr:created="{Date}2015-10-05T13:16:34.719+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T13:17:29.038+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;h3>Brochure&lt;/h3>&#xa;&lt;p>Answering Your Questions&lt;/p>&#xa;&lt;p>About the EP Study&lt;/p>&#xa;"/>
+        </rightrail-ipar>
+    </jcr:content>
+    <BostonScientific/>
+</jcr:root>

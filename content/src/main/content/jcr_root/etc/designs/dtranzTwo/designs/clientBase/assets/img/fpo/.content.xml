@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T14:43:39.111+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="fpo"/>
+    <mosaic/>
+    <product-viewer-1.jpg/>
+    <patient-education.jpg/>
+    <product-viewer-thumbnail-1.jpg/>
+    <product-viewer-thumbnail-3.jpg/>
+    <product-viewer-thumbnail-4.jpg/>
+    <product-viewer-thumbnail-5.jpg/>
+    <featured-product-2.jpg/>
+    <featured-product-1.jpg/>
+    <featured-product-4.jpg/>
+</jcr:root>

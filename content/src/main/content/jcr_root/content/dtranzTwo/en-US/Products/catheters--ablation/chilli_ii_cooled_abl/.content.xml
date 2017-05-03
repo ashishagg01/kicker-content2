@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:48.087+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:14.279+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/product-header-scaff"
+        cq:tags="[bsc_categories:catheters_Ablation/pulmonology]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Chilli II™ Cooled Ablation Catheter"
+        jcr:uuid="3f950f9a-3d6f-4e92-bc49-09a2bb5f9e1a"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <productHeader
+            jcr:lastModified="{Date}2015-09-09T15:10:18.795+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            calloutIcon="/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-contact-updates.png"
+            calloutLinks="\{&quot;calloutLinkTo&quot;:&quot;#&quot;,&quot;calloutlinkText&quot;:&quot;Contact Us&quot;,&quot;calloutIcon&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-contact-updates.png&quot;}"
+            calloutlinkText="Contact Us"
+            calloutLinkTo="#"
+            carouselDescription="[The Chilli II Catheter Handle is designed on the familiar\, predictable Blazer™ platform.,The Chilli II Catheter Handle is designed on the familiar\, predictable Blazer™ platform2,The Chilli II Catheter Handle is designed on the familiar\, predictable Blazer™ platform3]"
+            carouselMedia="[/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/ep_Chilli-II-H-661x661.image.460.0.png,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/ep_Chilli-II-B-720x720.image.460.0.png,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/ep_Chilli-II-no-tail-940x940.image.460.0.png]"
+            exploresectiontitle="Explore"
+            lighttitle="Cooled Ablation Catheter"
+            productCarousel="[{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/ep_Chilli-II-H-661x661.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;The Chilli II Catheter Handle is designed on the familiar\, predictable Blazer™ platform.&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/ep_Chilli-II-B-720x720.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;The Chilli II Catheter Handle is designed on the familiar\, predictable Blazer™ platform2&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/ep_Chilli-II-no-tail-940x940.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;The Chilli II Catheter Handle is designed on the familiar\, predictable Blazer™ platform3&quot;\,&quot;carouselIsVideo&quot;:false}]"
+            productDesc="Patented Closed-loop Cooling System Enhances Performance with no fluid infusion into the patient."
+            productResourcesTitle="Key Resources"
+            resourceLinks="[{&quot;resourceLinkTo&quot;:&quot;#&quot;\,&quot;resourceLinkText&quot;:&quot;Product Brochure&quot;},{&quot;resourceLinkTo&quot;:&quot;#&quot;\,&quot;resourceLinkText&quot;:&quot;Indications\, Safety and Warnings&quot;}]"
+            resourceLinkText="[Product Brochure,Indications\, Safety and Warnings]"
+            resourceLinkTo="[#,#]"
+            title="Chilli II™">
+            <productSection
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys">
+                <text
+                    jcr:created="{Date}2015-09-08T17:56:28.420+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-08T17:56:46.842+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/text"
+                    richTxtEditor="&lt;h2>Product Details&lt;/h2>&#xa;&lt;p>&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Patented Closed-loop Cooling System Enhances Performance&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>No fluid infusion to the patient&lt;/li>&#xa;&lt;li>No potential for the impact of a conductive &amp;quot;saline cloud&amp;quot;&lt;/li>&#xa;&lt;li>No interference in ICE images&lt;/li>&#xa;&lt;li>No open path for air emboli&lt;/li>&#xa;&lt;li>No delay in RF delivery&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;b>Extensive History of Safety &amp;amp; Efficacy&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Chilli™ Catheters and Chilli II™ Catheters used in more than 25,000 cases (US)&lt;/li>&#xa;&lt;li>Proven safe and effective in challenging left-sided VT applications1&lt;br>&#xa;&lt;br>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;b>Uniform Cooling of Entire Tip Electrode&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Innovative internal cooling system is designed to provide cooling of the entire tip electrode and reduce the potential for electrode &amp;quot;hot spots&amp;quot; regardless of contact angle&lt;br>&#xa;&lt;br>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;b>Versatility of Cooled Ablation Expands Clinical Options&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Cooling designed to reduce coagulum formation and provide the option to deliver high power&lt;/li>&#xa;&lt;li>Create conventional-sized lesions with the benefit of a cooled tip electrode&lt;/li>&#xa;&lt;li>Create large lesions through the option to deliver high power&lt;/li>&#xa;&lt;li>Create lesions quickly with the delivery of high power for short durations&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;b>Dependable Blazer™ Catheter Platform&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Familiar handle for comfortable, one-hand operation&lt;/li>&#xa;&lt;li>Accurate tip placement through bi-directional steering&lt;/li>&#xa;&lt;li>Predictable control for consistent performance&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;/p>&#xa;&lt;p>&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Device Illustration&lt;/b>&lt;/p>&#xa;&lt;p>Illustration of cooling lumens inside of the catheter chamber &amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;/p>&#xa;&lt;p>&lt;img alt=&quot;Chilli II Catheter - Illustration of cooling lumens inside of the catheter chamber&quot; src=&quot;https://www.bostonscientific.com/content/gwc/en-US/products/catheters--ablation/chilli-ii/_jcr_content/maincontent-par/image.img.Chilli_362wx272h_01_cl_us.jpg&quot; height=&quot;NaN&quot;>&lt;/p>&#xa;&lt;p>&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Chilli II Catheter - Ablation Science Tech Note&lt;/b>&lt;br>&#xa;Considerations in Selecting a Cooled Ablation Technology: Impact of Fluid Infusion into the Patient - Chilli II vs Open Irrigated&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Chilli-II-EP-27112-AB-Fluid-Infusion-Tech-Note.pdf&quot;>Download PDF&lt;/a>&lt;/p>&#xa;&lt;p>&lt;b>Cooled Ablation for VT&lt;/b>&lt;br>&#xa;Summary of Safety and Effectiveness (SSE) comparisons with the Chilli II Catheter and other cooled ablation catheters.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Chilli-II-EP-143807-AA_VT_Clinical_Data_Brochure.pdf&quot;>Download PDF&lt;/a>&amp;nbsp;&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;/p>&#xa;&lt;h2>Ordering Information&lt;/h2>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Chilli-II-EP-143806-AA-Spec-Sheet.pdf&quot;>Product Specifications&amp;nbsp;&lt;/a>&lt;/p>&#xa;&lt;h2>Reimbursement&lt;/h2>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/en-US/reimbursement/rhythm-management.html&quot;>Rhythm Management reimbursement resources&amp;nbsp;&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;div>&amp;nbsp;&lt;/div>&#xa;"/>
+            </productSection>
+        </productHeader>
+        <image
+            jcr:lastModified="{Date}2015-09-08T17:30:20.179+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

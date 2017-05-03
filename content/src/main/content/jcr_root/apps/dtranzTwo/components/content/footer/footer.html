@@ -1,0 +1,86 @@
+    <div data-sly-test.author="${wcmmode.edit || wcmmode.design}">
+        <section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap></section>
+        <meta data-sly-call="${clientlib.all @categories='footer_lib'}" data-sly-unwrap></meta>
+    </div>
+
+    <!-- COMPONENT: footer -->
+
+	<footer class="footer col-xs-12 col-sm-12 col-md-12" data-sly-use.myFooter="org.kicker.aem.content.footer.Footer">
+
+
+		<div class="container" data-sly-test="${currentPage.getProperties.disclaimertitle || currentPage.getProperties.disclaimertext}">
+			<div class="footer-disclaimer-bar">
+				<div class="footer-disclaimer">
+
+					<span data-sly-text="${currentPage.getProperties.disclaimertitle}"></span>
+					<div data-sly-text="${currentPage.getProperties.disclaimertext}"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container js-country-selector-footer-wrap"></div>
+		<div class="footer-bar">
+			<div class="container">
+				<div class="footer-social-wrap">
+					<div class="footer-logo">
+						<div
+							data-sly-resource="${'logo' @ resourceType='dtranzTwo/components/content/logo'}" data-sly-unwrap></div>
+						<!-- img src="${currentDesign.path}/img/boston-scientific-logo-no-tag.png" alt="" class="img img-responsive" / -->
+					</div>
+					<div class="footer-body">
+						<div data-sly-text="${myFooter.getResult['description']}"></div>
+					</div>
+
+					<div class="social-media-links">
+						<div class="social-icons">
+							<span class="social-media-text">
+								<div data-sly-text="${myFooter.getResult['followUs']}"></div>
+							</span> 
+                            <a target="_blank" class="social-icon-link" href="#" data-sly-attribute.href="${myFooter.getResult['twitter']}"><i class="fa fa-twitter" ></i></a> 
+                            <a target="_blank" class="social-icon-link" href="#" data-sly-attribute.href="${myFooter.getResult['facebook']}"><i class="fa fa-facebook"></i></a> 
+                            <a target="_blank" class="social-icon-link" href="#" data-sly-attribute.href="${myFooter.getResult['linkedin']}"><i	class="fa fa-linkedin"></i></a>
+                            <a target="_blank" class="social-icon-link" href="#" data-sly-attribute.href="${myFooter.getResult['rss']}"><i class="fa fa-rss"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-links-bar">
+
+			<div class="footer-links">
+				<ul data-sly-list="${myFooter.linkList}">
+
+					<li><a href="#" data-sly-attribute.href="${item.url}">
+							${item.text}</a></li>
+
+				</ul>
+				<div class="truste-privacy"
+					data-sly-test="${!currentPage.getProperties.hidetruste}">
+					<a title="TRUSTe European Safe Harbor certification"
+						href="//privacy.truste.com/privacy-seal/Boston-Scientific-Corporation/validation?rid=fca11bf9-2733-4ced-9b1a-1de85f7cd98e"
+						target="_blank"><img class="truste-seal"
+						src="http://privacy-policy.truste.com/privacy-seal/Boston-Scientific-Corporation/seal?rid=ce201975-0930-4371-b853-eea2cb8a69e4"
+						alt="TRUSTe European Safe Harbor certification"></a>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div data-sly-text="${myFooter.getResult['copyright'] @ context='html' }" data-sly-unwrap></div>
+			</div>
+			<div class="footer-date">
+				<div data-sly-text="${currentPage.getProperties.psstList}"></div>
+			</div>
+		</div>
+		<!-- COMPONENT: simulator-preview -->
+		<div class="simulator-preview">
+			<ul>
+				<li><a href="homepage.html?wcmmode=disabled" data-width="800"
+					data-height="600" class="tablet">Tablet</a></li>
+				<li><a href="homepage.html?wcmmode=disabled" data-width="400"
+					data-height="600" class="mobile">Mobile</a></li>
+			</ul>
+			<a href="#">Preview <span><i class="fa fa-chevron-down"></i><i
+					class="fa fa-chevron-up"></i></span></a>
+		</div>
+		<!-- COMPONENT END: simulator-preview -->
+
+	</footer>
+	<!-- COMPONENT END: footer -->

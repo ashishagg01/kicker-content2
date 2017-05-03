@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Boston Scientific"
+    jcr:lastModified="{Date}2015-09-07T11:05:42.885+05:30"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Boston Scientific Categories"
+    sling:resourceType="cq/tagging/components/tag">
+    <access_device_Dilatation/>
+    <accessories/>
+    <antiretropulsion/>
+    <atherectomy_systems/>
+    <band_ligator/>
+    <baskets/>
+    <bronchial_thermoplasty/>
+    <catheters_Ablation/>
+    <catheters_Balloon/>
+    <catheters_Diagnostic/>
+    <Catheters_Drainage/>
+    <catheters_Guide/>
+    <catheters_Mapping/>
+    <CRT-P/>
+    <CTO_Systems/>
+    <cytology_Brushes/>
+    <Pacemakers/>
+    <Embolization/>
+    <Needles/>
+    <Probes/>
+    <Snares/>
+</jcr:root>

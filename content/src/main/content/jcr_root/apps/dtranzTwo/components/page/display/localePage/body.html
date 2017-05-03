@@ -1,0 +1,10 @@
+<div data-sly-include="headlibs.html" ></div>
+<body>
+    <div data-sly-include="header.html" data-sly-unwrap></div>
+    <div data-sly-include="view.html" data-sly-unwrap></div>
+    <div data-sly-include="footer.html" data-sly-unwrap></div>
+    <div data-sly-include="controller.html" data-sly-unwrap></div>
+    <section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+	<meta data-sly-call="${clientlib.all @categories='dtranz:footer'}" data-sly-unwrap></meta>
+</body>
+</html>

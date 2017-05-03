@@ -1,0 +1,27 @@
+<div id="styleguide">
+   <article>
+      <!-- COMPONENT: sidebar-component -->
+      <div class="sidebar-component clearfix" data-sly-use.st="org.kicker.aem.content.quickfacts.QuickFacts">
+         <h3  class="sidebar-header">
+            ${st.title}		<img src="/etc/designs/dtranztwo/clientBase/assets/img/icons/quick-facts-header.png" class="sidebar-header-img">	
+         </h3>
+         <!-- COMPONENT: authorable -->
+         <div class="authorable" >
+            <p style="text-align: center;"><img src="${st.image}" style="max-width: 100%; margin-top: 15px;" />
+
+            </p>
+            <div data-sly-list="${st.factList}" data-sly-unwrap>
+               <h4 style="font: 700 1.8em Arial; color: #404040; margin-bottom: 0; text-align: center;">${item.fact}</h4>
+               <p style="font: 400 1.4em Arial; text-align: center;">${item.factDesc}</p>
+            </div>
+         </div>
+         <!-- COMPONENT END: authorable -->
+         <p class="view-link"><a href="${st.ctaLink}.html">${st.ctaText}<span class="arrows"><i class="fa fa-angle-right"></i></span></a></p>
+      </div>
+      <!-- COMPONENT END: sidebar-component -->
+   </article>
+</div>
+
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+<meta data-sly-call="${clientlib.all @categories='dtranz:multi'}" data-sly-unwrap>
+</meta>

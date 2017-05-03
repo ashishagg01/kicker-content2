@@ -1,0 +1,12 @@
+<div class="section-accordion-content section-accordion-optional js-section-accordion-optional">
+	<!-- Parsys -->
+	<div data-sly-resource="${'accordionContent' @ resourceType='wcm/foundation/components/parsys'}"></div>
+	<!-- Parsys -->
+</div>
+
+<a class="section-accordion-view-btn js-section-accordion-view-btn" href="#" data-sly-use.acc="org.kicker.aem.content.accordion.Accordion" 
+	data-seemore="${acc.seeMore}" data-seeless="${acc.seeLess}">
+    <span class="view-btn-text js-view-btn-text">${acc.seeMore}</span>
+	<i class="fa fa-chevron-down"></i>
+</a>
+

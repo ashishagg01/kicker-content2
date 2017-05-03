@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:51.617+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:18.995+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/productHeaderScaffolding"
+        cq:tags="[bsc_categories:catheters_Mapping/pulmonology]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="StimCor Cardiac Stimulator"
+        jcr:uuid="b715dbc0-7de7-40c3-895b-cc30031c9112"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <image
+            jcr:lastModified="{Date}2015-09-09T17:55:10.093+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <productHeader
+            jcr:lastModified="{Date}2015-09-09T15:02:11.737+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            calloutIcon="/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-contact-email.png"
+            calloutLinks="\{&quot;calloutLinkTo&quot;:&quot;#&quot;,&quot;calloutlinkText&quot;:&quot;Contact Us&quot;,&quot;calloutIcon&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-contact-email.png&quot;}"
+            calloutlinkText="Contact Us"
+            calloutLinkTo="#"
+            carouselDescription="[Blazer Prime Catheter,Blazer Prime - Atrial Flutter,Blazer Prime - AVNRT,Blazer Prime - RVOT]"
+            carouselIsVideo="on"
+            carouselMedia="[/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/Blazer-Prime-Catheter_940x940.image.460.0.png,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/PrimeAFL.image.460.0.jpg,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/PrimeAVNRT.image.460.0.jpg,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/PrimeRVOT.image.460.0.jpg]"
+            exploresectiontitle="Explore"
+            lighttitle="StimCor™ Cardiac Stimulator"
+            productCarousel="[{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/Blazer-Prime-Catheter_940x940.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;Blazer Prime Catheter&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/PrimeAFL.image.460.0.jpg&quot;\,&quot;carouselDescription&quot;:&quot;Blazer Prime - Atrial Flutter&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/PrimeAVNRT.image.460.0.jpg&quot;\,&quot;carouselDescription&quot;:&quot;Blazer Prime - AVNRT&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/PrimeRVOT.image.460.0.jpg&quot;\,&quot;carouselDescription&quot;:&quot;Blazer Prime - RVOT&quot;\,&quot;carouselIsVideo&quot;:false}]"
+            productDesc="The Integrate-able Stimulator for tomorrow’s EP Lab. The StimCor system is a diagnostic external programmable cardiac stimulator with two independent stimulation channels for simultaneous pacing during EP studies."
+            productResourcesTitle="Key Resources"
+            resourceLinks="[{&quot;resourceLinkTo&quot;:&quot;#&quot;\,&quot;resourceLinkText&quot;:&quot;Product Brochure&quot;},{&quot;resourceLinkTo&quot;:&quot;#&quot;\,&quot;resourceLinkText&quot;:&quot;Indications\, Safety and Warnings&quot;}]"
+            resourceLinkText="[Product Brochure,Indications\, Safety and Warnings]"
+            resourceLinkTo="[#,#]"
+            title="StimCor™">
+            <productSection
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys">
+                <text
+                    jcr:created="{Date}2015-09-08T10:56:58.848+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-08T11:08:15.133+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/text"
+                    richTxtEditor="&lt;h2>Product Details&lt;/h2>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Prime-EPT-11130-AFLBundle-Broch.pdf&quot;>Raising the bar on performance for Atrial Flutter&amp;nbsp;&lt;/a>&lt;/p>&#xa;&lt;h2>Ordering Information&lt;/h2>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/EPT-10908-Prime-Spec-Sheet.pdf&quot;>Product Specifications and Ordering Information&amp;nbsp;&lt;/a>&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Prime-EPT-11140-AFL-Bundle-SpecSheet.pdf&quot;>Atrial Flutter Toolset - Spec Sheet&amp;nbsp;&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h2>Case Studies&lt;/h2>&#xa;&lt;p>&lt;b>Technique Spotlight by Venkata Bavikati, MD and Michael Lloyd, MD, FACC&lt;/b>&lt;/p>&#xa;&lt;p>An Anatomic Case Discussion of CTI-Dependent Flutter Ablation: Utility of a Duodecapolar Catheter and an 8mm-tip Ablation Catheter&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;u>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Prime-EPT-11122-Lloyd-CS.pdf&quot;>View case study&lt;/a>&lt;/u>&lt;/p>&#xa;&lt;p>&lt;b>Technique Spotlight by Niraj Sharma, MD&lt;/b>&lt;/p>&#xa;&lt;p>Successful Ablation of Recurrent Typical Atrial Flutter: Blazer™ Dx-20 Bidirectional Duodecapolar Diagnostic Catheter and 10mm Blazer Prime™ XP Temperature Ablation Catheter&lt;/p>&#xa;&lt;p>&lt;u>&lt;a href=&quot;https://www.bostonscientific.com/content/dam/bostonscientific/ep/portfolio-group/Prime-EPT-11122-Lloyd-CS.pdf&quot;>VIew case study&lt;/a>&lt;/u>&lt;/p>&#xa;&lt;h2>Reimbursement&lt;/h2>&#xa;&lt;p>&lt;a href=&quot;https://www.bostonscientific.com/en-US/reimbursement/rhythm-management.html&quot;>Rhythm Management reimbursement resources&amp;nbsp;&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;div>&amp;nbsp;&lt;/div>&#xa;"/>
+            </productSection>
+        </productHeader>
+    </jcr:content>
+</jcr:root>

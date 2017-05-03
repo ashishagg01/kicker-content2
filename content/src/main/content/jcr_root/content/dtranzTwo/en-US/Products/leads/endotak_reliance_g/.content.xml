@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:48.952+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:16.092+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/Boston_Scientific_Product_Scaffolding"
+        cq:tags="[bsc_categories:access_device_Dilatation/electrophysiology,bsc_categories:accessories/electrophysiology]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ENDOTAK RELIANCE™ G"
+        jcr:uuid="161b1443-4136-45b0-904e-ec0181b5bc83"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <productHeader
+            jcr:lastModified="{Date}2015-09-07T16:59:00.880+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            carouselDescription="[,ENDOTAK ,]"
+            carouselMedia="[/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/leads/Reliance_Close-Up_600x600.image.460.0.png,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/leads/Reliance-Beauty_v2_600x600.image.460.0.png,/etc/designs/dtranzTwo/designs/clientBase/img/productheaderimages/leads/Reliance-Beauty_600x600.image.460.0.png]"
+            exploresectiontitle="Explore"
+            lighttitle="Defibrillation Lead"
+            productButtonLink="#"
+            productButtonText="request a salesrep"
+            productCarousel="[{&quot;carouselMedia&quot;:&quot;/content/dam/dtranzTwo/Products/Leads/Reliance_Close-Up_600x600.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/content/dam/dtranzTwo/Products/Leads/Reliance-Beauty_v2_600x600.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;ENDOTAK &quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/content/dam/dtranzTwo/Products/Leads/Reliance-Beauty_600x600.image.460.0.png&quot;\,&quot;carouselDescription&quot;:&quot;&quot;\,&quot;carouselIsVideo&quot;:false}]"
+            productDesc="The ENDOTAK RELIANCE G/SG leads are steroid-eluting, endocardial cardioversion/ defibrillation, and pace/sense leads available in extendable/retractable and tined models. The electrode coils are covered with GORE™ expanded polytetrafluoroethylene (ePTFE) to prevent tissue ingrowth around and between the shocking coils."
+            productResourcesTitle="Key Resources"
+            title="ENDOTAK RELIANCE™ G"/>
+    </jcr:content>
+</jcr:root>

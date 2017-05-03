@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:50.369+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:17.814+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/bostonScientificProductPages"
+        cq:tags="[bsc_categories:atherectomy_systems/urology]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DYNAGEN"
+        jcr:uuid="e3860ea6-eb72-4db2-9742-bda7f220199c"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <productHeader
+            jcr:lastModified="{Date}2015-09-09T11:17:49.496+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            carouselDescription="[DYNAGEN™ MINI ICD - Model DR and VR,DYNAGEN™ MINI ICD - Model DR,DYNAGEN™ MINI ICD - Model VR]"
+            carouselMedia="[/etc/designs/dtranzTwo/designs/clientBase/img/products/defibrillators/INOGEN--EL-ICD/text_replacement.png,/etc/designs/dtranzTwo/designs/clientBase/img/products/defibrillators/INOGEN--EL-ICD/text_replacement.png,/etc/designs/dtranzTwo/designs/clientBase/img/products/defibrillators/INOGEN--EL-ICD/text_replacement.png]"
+            exploresectiontitle="Explore"
+            lighttitle="The world’s smallest and thinnest ICD.1"
+            productButtonLink="#"
+            productButtonText="request a sale rep"
+            productCarousel="[{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/products/defibrillators/INOGEN--EL-ICD/text_replacement.png&quot;\,&quot;carouselDescription&quot;:&quot;DYNAGEN™ MINI ICD - Model DR and VR&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/products/defibrillators/INOGEN--EL-ICD/text_replacement.png&quot;\,&quot;carouselDescription&quot;:&quot;DYNAGEN™ MINI ICD - Model DR&quot;\,&quot;carouselIsVideo&quot;:false},{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/products/defibrillators/INOGEN--EL-ICD/text_replacement.png&quot;\,&quot;carouselDescription&quot;:&quot;DYNAGEN™ MINI ICD - Model VR&quot;\,&quot;carouselIsVideo&quot;:false}]"
+            productDesc="Boston Scientific provides devices tailored to individual needs. Up to 20% smaller and 24% thinner than other ICDs on the market,2 the MINI offers all the power of a Boston Scientific ICD in a device that is the industry’s sleekest and designed for patient comfort."
+            productResourcesTitle="Key Resources"
+            title="DYNAGEN™ MINI ICD"/>
+        <image
+            jcr:lastModified="{Date}2015-09-11T18:00:18.207+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

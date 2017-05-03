@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dailog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <titles
+                jcr:primaryType="cq:Panel"
+                title="Titles">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the Title with large style"
+                        fieldLabel="Title"
+                        name="./title"
+                        xtype="textfield"/>
+                    <light-title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Enter the Title with lighter style"
+                        fieldLabel="Light Title"
+                        name="./lighttitle"
+                        xtype="textfield"/>
+                    <explore-section-title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter the Title for the Explore Section&#xa;Eg: Explore&#xa;"
+                        fieldLabel="Explore Section Title"
+                        name="./exploresectiontitle"
+                        xtype="textfield"/>
+                </items>
+            </titles>
+            <carousel
+                jcr:primaryType="cq:Panel"
+                title="Carousel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <product-carousel
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="front Carousel field description"
+                        fieldLabel="Carousel"
+                        name="./productCarousel"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            hideLabel="true"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="multi-field-panel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <media
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="carouselMedia"
+                                    fieldDescription="Select an image or video"
+                                    fieldLabel="Media"
+                                    name="./carouselMedia"
+                                    rootPath="{Path}/etc/designs/dtranztwo/design/assets"
+                                    width="200"
+                                    xtype="pathfield"/>
+                                <description
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="true"
+                                    dName="carouselDescription"
+                                    fieldDescription="Enter a short description for the image"
+                                    fieldLabel="Description"
+                                    name="./carouselDescription"
+                                    width="200"
+                                    xtype="textfield"/>
+                                <isVideo
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="true"
+                                    dName="carouselIsVideo"
+                                    fieldDescription="Check if the Media is a video"
+                                    fieldLabel="Is Video"
+                                    name="./carouselIsVideo"
+                                    width="200"
+                                    xtype="checkbox"/>
+                            </items>
+                        </fieldConfig>
+                    </product-carousel>
+                </items>
+            </carousel>
+            <right-rail
+                jcr:primaryType="cq:Panel"
+                title="Right Rail">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <product-description
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Enter a short description for the product"
+                        fieldLabel="Product description"
+                        name="./productDesc"
+                        xtype="textfield"/>
+                    <resources-title
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Enter the title for resources"
+                        fieldLabel="Resources Title"
+                        name="./productResourcesTitle"
+                        xtype="textfield"/>
+                    <resource-links
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click + to add links"
+                        fieldLabel="Resource Links"
+                        name="./resourceLinks"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            hideLabel="true"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="multi-field-panel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <link-to
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="resourceLinkTo"
+                                    fieldDescription="Select a page or enter url"
+                                    fieldLabel="Resource Links"
+                                    name="./resourceLinkTo"
+                                    width="200"
+                                    xtype="pathfield"/>
+                                <link-text
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="resourceLinkText"
+                                    fieldDescription="Enter the Link Text"
+                                    fieldLabel="Link Text"
+                                    name="./resourceLinkText"
+                                    width="200"
+                                    xtype="textfield"/>
+                            </items>
+                        </fieldConfig>
+                    </resource-links>
+                    <button-link
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Select a page or enter url"
+                        fieldLabel="Button Link"
+                        name="./productButtonLink"
+                        xtype="pathfield"/>
+                    <button-text
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldDescription="Enter the text on the button"
+                        fieldLabel="Button Text"
+                        name="./productButtonText"
+                        xtype="textfield"/>
+                    <callout-links
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click + to add links"
+                        fieldLabel="Callout Links"
+                        name="./calloutLinks"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            hideLabel="true"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="multi-field-panel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <link-to
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="calloutLinkTo"
+                                    fieldDescription="Select a page or enter url"
+                                    fieldLabel="Link to"
+                                    name="./calloutLinkTo"
+                                    rootPath="{Path}/etc/designs/dtranztwo/design/assets"
+                                    width="200"
+                                    xtype="pathfield"/>
+                                <link-text
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="calloutlinkText"
+                                    fieldDescription="Enter the Link Text"
+                                    fieldLabel="Description"
+                                    name="./calloutlinkText"
+                                    width="200"
+                                    xtype="textfield"/>
+                                <icon-call-out
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="false"
+                                    dName="calloutIcon"
+                                    fieldDescription="Drop or select an icon "
+                                    fieldLabel="Icon "
+                                    name="./calloutIcon"
+                                    rootPath="{Path}/etc/designs/dtranztwo/design/assets"
+                                    width="200"
+                                    xtype="pathfield"/>
+                            </items>
+                        </fieldConfig>
+                    </callout-links>
+                </items>
+            </right-rail>
+        </items>
+    </items>
+</jcr:root>

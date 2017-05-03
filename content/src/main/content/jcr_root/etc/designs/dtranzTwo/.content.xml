@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-07T17:05:08.925+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:43:31.439+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DtranZTwo"
+        jcr:uuid="7e08b8e4-43d2-4b3f-b3b7-17fe4ed9345a"
+        sling:resourceType="wcm/core/components/designer">
+        <localePage jcr:primaryType="nt:unstructured">
+            <utilityNav
+                jcr:lastModified="{Date}2015-08-24T15:51:38.566+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/utilityNav"
+                links="[{&quot;url&quot;:&quot;http://dev.day.com/content/ddc/en/gems/introduction-to-sightly.html&quot;\,&quot;text&quot;:&quot;Home&quot;\,&quot;openInNewWindow&quot;:true},{&quot;url&quot;:&quot;http://docs.adobe.com/content/docs/en/aem/6-0/develop/sightly.html&quot;\,&quot;text&quot;:&quot;About Us&quot;\,&quot;openInNewWindow&quot;:true},{&quot;url&quot;:&quot;http://dev.day.com/content/ddc/en/gems/introduction-to-sightly.html&quot;\,&quot;text&quot;:&quot;Help&quot;\,&quot;openInNewWindow&quot;:false},{&quot;url&quot;:&quot;http://docs.adobe.com/docs/en/cq/5-5/javadoc/index.html?com/day/cq/wcm/api/components/Component.html&quot;\,&quot;text&quot;:&quot;Investor&quot;\,&quot;openInNewWindow&quot;:false},{&quot;url&quot;:&quot;https://en.wikipedia.org/wiki/Career&quot;\,&quot;text&quot;:&quot;Career&quot;\,&quot;openInNewWindow&quot;:false},{&quot;url&quot;:&quot;/content/geometrixx-outdoors/en/men&quot;\,&quot;text&quot;:&quot;News&quot;\,&quot;openInNewWindow&quot;:false}]">
+                <countrySelector
+                    jcr:lastModified="{Date}2015-08-24T11:38:31.913+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/countySelector"
+                    multifield="[{&quot;url&quot;:&quot;/content/geometrixx/en&quot;\,&quot;text&quot;:&quot;India&quot;\,&quot;image&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/assets/img/icons/country_austria.gif&quot;\,&quot;openInNewWindow&quot;:true},{&quot;url&quot;:&quot;/content/geometrixx/fr&quot;\,&quot;text&quot;:&quot;USA&quot;\,&quot;image&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/assets/img/icons/country_austria.gif&quot;\,&quot;openInNewWindow&quot;:false},{&quot;url&quot;:&quot;/content/geometrixx/it&quot;\,&quot;text&quot;:&quot;China&quot;\,&quot;image&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/assets/img/icons/country_austria.gif&quot;\,&quot;openInNewWindow&quot;:false}]"/>
+            </utilityNav>
+            <logo
+                jcr:lastModified="{Date}2015-08-24T13:45:32.186+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/logo"
+                fileReference="/content/dam/dtranzTwo/img/boston-scientific-logo.png"
+                imageRotate="0"/>
+            <search
+                jcr:lastModified="{Date}2015-08-24T12:59:55.388+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/search"
+                actionPath="Google.com"
+                actPath="www.google.com"
+                searchText="Search Site"/>
+            <primaryNav
+                jcr:lastModified="{Date}2015-09-21T14:22:04.507+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/primaryNavigation"
+                link="[{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/geometrixx/en&quot;\,&quot;overviewLinkText&quot;:&quot;sds&quot;\,&quot;featuredProductImage&quot;:&quot;&quot;\,&quot;featuredAreaTitle&quot;:&quot;Featured Area Title&quot;\,&quot;featuredAreaDescription&quot;:&quot;Featured Area Title&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-outdoors/en/men&quot;\,&quot;callToActionText&quot;:&quot;Featured Area Title&quot;},{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/geometrixx/fr&quot;\,&quot;overviewLinkText&quot;:&quot;dsfsdf&quot;\,&quot;featuredProductImage&quot;:&quot;&quot;\,&quot;featuredAreaTitle&quot;:&quot;Featured Area Title&quot;\,&quot;featuredAreaDescription&quot;:&quot;Featured Area Title&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-gov/en/allforms&quot;\,&quot;callToActionText&quot;:&quot;Featured Area Title&quot;},{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;three&quot;\,&quot;overviewLinkText&quot;:&quot;fsf&quot;\,&quot;featuredProductImage&quot;:&quot;&quot;\,&quot;featuredAreaTitle&quot;:&quot;dfss&quot;\,&quot;featuredAreaDescription&quot;:&quot;sdfsd&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-media&quot;\,&quot;callToActionText&quot;:&quot;sdfsd&quot;}]"
+                menus="[{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/geometrixx/en&quot;\,&quot;overviewLinkText&quot;:&quot;MEDICAL SPECIALTIES&quot;\,&quot;featuredProductImage&quot;:&quot;/content/dam/geometrixx/drm/touch-ui-drm.jpg&quot;\,&quot;featuredAreaTitle&quot;:&quot;sadas&quot;\,&quot;featuredAreaDescription&quot;:&quot;sada&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-gov/en&quot;\,&quot;callToActionText&quot;:&quot;sdas&quot;},{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/dtranzTwo/en-US/health-conditions&quot;\,&quot;overviewLinkText&quot;:&quot;HEALTH CONDITIONS&quot;\,&quot;featuredProductImage&quot;:&quot;/content/dam/dtranzTwo/img/Atrial-D-KnowlesCarousel.image.690.0.jpg&quot;\,&quot;featuredAreaTitle&quot;:&quot;HEALTH CONDITIONS&quot;\,&quot;featuredAreaDescription&quot;:&quot;HEALTH CONDITIONS&quot;\,&quot;callToAction&quot;:&quot;/content/dtranzTwo/en-US/health-conditions&quot;\,&quot;callToActionText&quot;:&quot;HEALTH CONDITIONS&quot;},{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/dtranzTwo/en-US/Products&quot;\,&quot;overviewLinkText&quot;:&quot;PRODUCTS&quot;\,&quot;featuredProductImage&quot;:&quot;/content/dam/dtranzTwo/img/featured-article-img-hd.png&quot;\,&quot;featuredAreaTitle&quot;:&quot;PRODUCTS&quot;\,&quot;featuredAreaDescription&quot;:&quot;PRODUCTS&quot;\,&quot;callToAction&quot;:&quot;/content/dtranzTwo/en-US/Products&quot;\,&quot;callToActionText&quot;:&quot;PRODUCTS&quot;},{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/geometrixx/fr&quot;\,&quot;overviewLinkText&quot;:&quot;REIMBURSEMENT&quot;\,&quot;featuredProductImage&quot;:&quot;/content/dam/geometrixx-gov/resources.jpg&quot;\,&quot;featuredAreaTitle&quot;:&quot;REIMBURSEMENT&quot;\,&quot;featuredAreaDescription&quot;:&quot;REIMBURSEMENT&quot;\,&quot;callToAction&quot;:&quot;/content/communities&quot;\,&quot;callToActionText&quot;:&quot;REIMBURSEMENT&quot;}]"
+                primarynav="[{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/geometrixx-outdoors-mobile/en&quot;\,&quot;overviewLinkText&quot;:&quot;Outdoors&quot;\,&quot;featuredProductImage&quot;:&quot;&quot;\,&quot;featuredAreaTitle&quot;:&quot;&quot;\,&quot;featuredAreaDescription&quot;:&quot;&quot;\,&quot;callToAction&quot;:&quot;&quot;\,&quot;callToActionText&quot;:&quot;&quot;},{&quot;flyout&quot;:true\,&quot;menuItem&quot;:&quot;/content/catalogs/geometrixx-outdoors&quot;\,&quot;overviewLinkText&quot;:&quot;hwegho&quot;\,&quot;featuredProductImage&quot;:&quot;&quot;\,&quot;featuredAreaTitle&quot;:&quot;&quot;\,&quot;featuredAreaDescription&quot;:&quot;&quot;\,&quot;callToAction&quot;:&quot;&quot;\,&quot;callToActionText&quot;:&quot;&quot;}]"/>
+            <content-par
+                jcr:lastModified="{Date}2015-08-21T18:14:48.087+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Global Web Content,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </content-par>
+            <footer
+                jcr:lastModified="{Date}2015-09-15T18:07:21.408+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/footer"
+                copyright="&lt;p>©2014 Boston Scientific or its affiliates. All rights reserved.&lt;/p>&#xa;"
+                description="Boston Scientific is dedicated to transforming lives through innovative medical solutions that improve the health of patients globally."
+                facebook="#"
+                followUs="Follow Us"
+                linkedin="#"
+                links="[{&quot;url&quot;:&quot;/content/dtranzTwo/en-US/contact-us-email&quot;\,&quot;text&quot;:&quot;Contact Us&quot;},{&quot;url&quot;:&quot;/content/geometrixx-gov&quot;\,&quot;text&quot;:&quot;Location Directory&quot;},{&quot;url&quot;:&quot;/content/geometrixx-media&quot;\,&quot;text&quot;:&quot;Site Map&quot;},{&quot;url&quot;:&quot;/content/community-components&quot;\,&quot;text&quot;:&quot;Terms of Use &amp; Privacy&quot;},{&quot;url&quot;:&quot;/content/geometrixx_mobile&quot;\,&quot;text&quot;:&quot;Copyright Notice&quot;}]"
+                rss="#"
+                twitter="http://twitter.com">
+                <logo
+                    jcr:lastModified="{Date}2015-08-24T13:45:17.187+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/logo"
+                    fileReference="/content/dam/dtranzTwo/img/boston-scientific-logo-no-tag.png"
+                    imageRotate="0">
+                    <file/>
+                </logo>
+            </footer>
+            <breadcrumb
+                jcr:lastModified="{Date}2015-08-24T15:05:58.933+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/breadcrumb"
+                absParent="1"/>
+        </localePage>
+        <homePage jcr:primaryType="nt:unstructured">
+            <main-content
+                jcr:lastModified="{Date}2015-08-24T15:12:06.732+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </main-content>
+        </homePage>
+        <productDetailPage jcr:primaryType="nt:unstructured">
+            <productHeader jcr:primaryType="nt:unstructured">
+                <productSection
+                    jcr:lastModified="{Date}2015-09-08T10:56:43.409+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys"
+                    components="[group:General,group:dtranzTwo]">
+                    <section jcr:primaryType="nt:unstructured"/>
+                </productSection>
+            </productHeader>
+        </productDetailPage>
+        <fullWidthContentPage jcr:primaryType="nt:unstructured">
+            <pars
+                jcr:lastModified="{Date}2015-09-11T09:29:31.680+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:Form,group:dtranzTwo,group:gwc]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </pars>
+        </fullWidthContentPage>
+        <subsectionLandingPage jcr:primaryType="nt:unstructured">
+            <masthead-par
+                jcr:lastModified="{Date}2015-09-15T17:27:12.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </masthead-par>
+            <rightrail-par
+                jcr:lastModified="{Date}2015-09-15T17:31:16.871+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </rightrail-par>
+            <rightrail-ipar
+                jcr:lastModified="{Date}2015-09-24T14:14:41.528+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/iparsys"
+                components="[group:General,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </rightrail-ipar>
+        </subsectionLandingPage>
+        <sectionLandingPage jcr:primaryType="nt:unstructured">
+            <masthead-par
+                jcr:lastModified="{Date}2015-09-18T12:52:14.444+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="group:dtranzTwo">
+                <section jcr:primaryType="nt:unstructured"/>
+            </masthead-par>
+            <content-par
+                jcr:lastModified="{Date}2015-10-05T14:36:25.292+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </content-par>
+            <rightrail-par
+                jcr:lastModified="{Date}2015-09-18T12:52:44.419+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="[group:General,group:dtranzTwo]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </rightrail-par>
+        </sectionLandingPage>
+        <loginPage jcr:primaryType="nt:unstructured">
+            <login-pars
+                jcr:lastModified="{Date}2015-10-07T17:05:08.689+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"
+                components="group:dtranzTwo">
+                <section jcr:primaryType="nt:unstructured"/>
+            </login-pars>
+        </loginPage>
+    </jcr:content>
+    <designs/>
+    <clientlibs/>
+</jcr:root>

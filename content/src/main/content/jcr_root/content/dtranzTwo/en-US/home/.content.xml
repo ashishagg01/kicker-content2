@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-28T12:30:26.841+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:13.798+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/dtranzTwo/templates/homePage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home | Boston Scientific"
+        jcr:uuid="d65e76fe-4e2f-4eb1-ab89-c9a2054a7ac8"
+        sling:resourceType="dtranzTwo/components/page/display/homePage"
+        disclaimertext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisl eget ante feugiat auctor ut quis lectus. Duis pharetra semper ante, ut dapibus nulla pharetra et. In id fermentum ligula, ut dignissim felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisl eget ante feugiat auctor ut quis lectus."
+        disclaimertitle="DISCLAIMER:"
+        psstList=" PI-67703-AA MAR2012, PI-67703-AA MAR2012">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <homepagecarousel
+                jcr:created="{Date}2015-08-24T14:10:15.050+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T14:16:12.769+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/homepageCarousel"
+                link="[{&quot;image&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-2.jpg&quot;\,&quot;lightIntro&quot;:&quot;We Are&quot;\,&quot;mainTitle&quot;:&quot;Advancing&quot;\,&quot;description&quot;:&quot;Boundaries of life&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-gov&quot;\,&quot;callToActionText&quot;:&quot;Gov&quot;\,&quot;previewThumbnail&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-2.jpg&quot;\,&quot;previewTitle&quot;:&quot;Preview&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-2.jpg&quot;\,&quot;lightIntro&quot;:&quot;We Are &quot;\,&quot;mainTitle&quot;:&quot;Pushing &quot;\,&quot;description&quot;:&quot;Limitations&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-media/en&quot;\,&quot;callToActionText&quot;:&quot;English&quot;\,&quot;previewThumbnail&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-2.jpg&quot;\,&quot;previewTitle&quot;:&quot;Preview&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-1.jpg&quot;\,&quot;lightIntro&quot;:&quot;We&quot;\,&quot;mainTitle&quot;:&quot;Master Head 1&quot;\,&quot;description&quot;:&quot;Image from Master Head 1&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx/fr&quot;\,&quot;callToActionText&quot;:&quot;French Page&quot;\,&quot;previewThumbnail&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-2.jpg&quot;\,&quot;previewTitle&quot;:&quot;Preview 2&quot;}]"/>
+            <title
+                jcr:created="{Date}2015-08-24T14:47:06.463+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T14:48:50.144+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/title"
+                pageTitle="English Home Page"/>
+            <subtitle
+                jcr:created="{Date}2015-08-24T14:21:15.647+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T14:49:14.672+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/subtitle"
+                selectType="h2"
+                text="Home Page English Subtitle"/>
+            <accordion
+                jcr:created="{Date}2015-08-24T14:33:25.027+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T14:33:49.649+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/accordion"
+                seeLess="See Less"
+                seeMore="See More">
+                <accordionContent
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <image
+                        jcr:created="{Date}2015-08-24T14:34:30.754+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-24T14:34:38.614+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dtranzTwo/img/clinical-info-bar-graph.png"/>
+                </accordionContent>
+            </accordion>
+            <quickfacts
+                jcr:created="{Date}2015-08-24T14:29:51.494+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T14:32:41.631+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/quickFacts"
+                ctaLink="/content/geometrixx-outdoors/en/men"
+                ctaText="Quick Facts about Boston Scientific"
+                fileReference="/content/dam/dtranzTwo/img/explore-customer-service.png"
+                imageRotate="0"
+                link="\{&quot;url&quot;:&quot;/content/geometrixx-media/en&quot;,&quot;text&quot;:&quot;Fact 1 &quot;}"
+                quickTitle="Quick Facts"/>
+            <hyperlink
+                jcr:created="{Date}2015-08-24T14:53:15.595+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T14:53:48.530+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/hyperlink"
+                link="/content/dtranzTwo/fr"
+                linktext="French"/>
+        </content-par>
+        <main-content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <columncontrol
+                jcr:created="{Date}2015-08-31T14:55:34.351+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-31T14:56:00.177+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/columnControl"
+                columncontrol="2">
+                <ColCtrl-1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <featuredmedia
+                        jcr:created="{Date}2015-08-31T15:01:07.334+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-24T14:29:22.409+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dtranzTwo/components/content/featuredMedia"
+                        featuredMedia="\{&quot;FMvideo&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/fpo/feature-content-video-carousel-1.jpg&quot;,&quot;FMimage&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-video-play_80.png&quot;,&quot;FMintro&quot;:&quot;INTRODUCTION&quot;,&quot;FMtitle&quot;:&quot;Transforming Lives Exerchitat Volupta&quot;,&quot;FMcallToAction&quot;:&quot;http://www.youtube.com/watch?v=opj24KnzrWo&quot;,&quot;FMcallToActionText&quot;:&quot;Watch the Video&quot;}"/>
+                    <featuredarticles
+                        jcr:created="{Date}2015-08-31T15:11:24.000+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-14T12:55:02.428+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dtranzTwo/components/content/featuredArticles"
+                        farticle="[{&quot;Header&quot;:&quot;ACT CAMPAIGN&quot;\,&quot;Title&quot;:&quot;Atndesti Vol Orepel Mo Dipicide Exerciae Perit.&quot;\,&quot;Image&quot;:&quot;/content/dam/dtranzTwo/img/featured-article-img-hd.png&quot;\,&quot;Article&quot;:&quot;/content/geometrixx-media/en&quot;\,&quot;Color&quot;:&quot;blue&quot;},{&quot;Header&quot;:&quot;ACT CAMPAIGN&quot;\,&quot;Title&quot;:&quot;Atndesti Vol Orepel Mo Dipicide Exerciae Perit.&quot;\,&quot;Image&quot;:&quot;/content/dam/dtranzTwo/img/featured-article-img-hd-2.png&quot;\,&quot;Article&quot;:&quot;/content/geometrixx-outdoors/en/men&quot;\,&quot;Color&quot;:&quot;green&quot;}]"/>
+                </ColCtrl-1>
+                <ColCtrl-2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/parsys">
+                    <featuredmedia
+                        jcr:created="{Date}2015-08-31T15:01:23.173+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-09-10T18:29:48.846+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dtranzTwo/components/content/featuredMedia"
+                        featuredMedia="\{&quot;FMvideo&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/fpo/feature-content-video-carousel-1.jpg&quot;,&quot;FMimage&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-video-play_80.png&quot;,&quot;FMintro&quot;:&quot;INTRODUCTION&quot;,&quot;FMtitle&quot;:&quot;Transforming Lives Exerchitat Volupta&quot;,&quot;FMcallToAction&quot;:&quot;http://www.youtube.com/watch?v=opj24KnzrWo&quot;,&quot;FMcallToActionText&quot;:&quot;Watch the Video&quot;}"/>
+                    <featuredarticles
+                        jcr:created="{Date}2015-08-31T15:11:57.484+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-31T15:19:59.955+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dtranzTwo/components/content/featuredArticles"
+                        farticle="[{&quot;Header&quot;:&quot;ACT CAMPAIGN&quot;\,&quot;Title&quot;:&quot;Atndesti Vol Orepel Mo Dipicide Exerciae Perit.&quot;\,&quot;Image&quot;:&quot;/content/dam/dtranzTwo/img/featured-article-img-hd.png&quot;\,&quot;Article&quot;:&quot;/content/geometrixx/en&quot;\,&quot;Color&quot;:&quot;green&quot;},{&quot;Header&quot;:&quot;ACT CAMPAIGN&quot;\,&quot;Title&quot;:&quot;Atndesti Vol Orepel Mo Dipicide Exerciae Perit.&quot;\,&quot;Image&quot;:&quot;/content/dam/dtranzTwo/img/featured-article-img-hd-2.png&quot;\,&quot;Article&quot;:&quot;/content/geometrixx/en&quot;\,&quot;Color&quot;:&quot;blue&quot;}]"/>
+                </ColCtrl-2>
+            </columncontrol>
+        </main-content>
+        <contentCallouts
+            jcr:lastModified="{Date}2015-08-31T14:24:32.520+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/contentCallouts"
+            callout="[{&quot;intro&quot;:&quot;For&quot;\,&quot;title&quot;:&quot;Healthcare Professionals&quot;\,&quot;description&quot;:&quot;Discover a medical specialty and related resources.&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx/en&quot;},{&quot;intro&quot;:&quot;For&quot;\,&quot;title&quot;:&quot;Patients &amp; Caregivers&quot;\,&quot;description&quot;:&quot;Find information on conditions and learn about our treatment options.&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx-outdoors-mobile/en&quot;},{&quot;intro&quot;:&quot;Browse&quot;\,&quot;title&quot;:&quot;Products&quot;\,&quot;description&quot;:&quot;Explore product details and how we innovate.&quot;\,&quot;callToAction&quot;:&quot;http://Google.com&quot;}]"/>
+        <homepageCarousel
+            jcr:lastModified="{Date}2015-09-24T15:33:15.585+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/homepageCarousel"
+            link="[{&quot;image&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover.jpg&quot;\,&quot;lightIntro&quot;:&quot;WE ARE&quot;\,&quot;mainTitle&quot;:&quot;Advancing science for life.&quot;\,&quot;description&quot;:&quot;We push the boundaries of innovation in pursuit of tomorrow's medical solutions.&quot;\,&quot;callToAction&quot;:&quot;http://www.youtube.com/watch?v=opj24KnzrWo&quot;\,&quot;callToActionText&quot;:&quot;External Video&quot;\,&quot;previewThumbnail&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-2.jpg&quot;\,&quot;previewTitle&quot;:&quot;MARIA'S STORY&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-2.jpg&quot;\,&quot;lightIntro&quot;:&quot;WE ARE&quot;\,&quot;mainTitle&quot;:&quot;Advancing science for life.&quot;\,&quot;description&quot;:&quot;We push the boundaries of innovation in pursuit of tomorrow's medical solutions.&quot;\,&quot;callToAction&quot;:&quot;#rollover-vid-1&quot;\,&quot;callToActionText&quot;:&quot;INTERNAL VIDEO&quot;\,&quot;previewThumbnail&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-2.jpg&quot;\,&quot;previewTitle&quot;:&quot;MARIA'S STORY&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-3.jpg&quot;\,&quot;lightIntro&quot;:&quot;WE ARE&quot;\,&quot;mainTitle&quot;:&quot;Advancing science for life.&quot;\,&quot;description&quot;:&quot;We push the boundaries of innovation in pursuit of tomorrow's medical solutions.&quot;\,&quot;callToAction&quot;:&quot;#&quot;\,&quot;callToActionText&quot;:&quot;ABOUT US&quot;\,&quot;previewThumbnail&quot;:&quot;/content/dam/dtranzTwo/carousel/masthead-rollover-2.jpg&quot;\,&quot;previewTitle&quot;:&quot;MARIA'S STORY&quot;}]"/>
+        <image
+            jcr:lastModified="{Date}2015-08-31T14:32:43.907+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <ticker
+            jcr:lastModified="{Date}2015-09-14T11:23:05.551+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/ticker"
+            icon="/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-rss_40.png"
+            ticker="[{&quot;headline&quot;:&quot;Boston Scientific Announces CE Mark Approval And First Implants Of Its Next-Generation X4 Quadripolar CRT-D Systems&quot;\,&quot;callToAction&quot;:&quot;http://news.bostonscientific.com/press-releases&quot;\,&quot;callToActionText&quot;:&quot;http://news.bostonscientific.com/press-releases&quot;},{&quot;headline&quot;:&quot;Testing again and yet again&quot;\,&quot;callToAction&quot;:&quot;http://news.bostonscientific.com/press-releases&quot;\,&quot;callToActionText&quot;:&quot;View All&quot;},{&quot;headline&quot;:&quot;Geometrixx News&quot;\,&quot;callToAction&quot;:&quot;/content/geometrixx/en/events&quot;\,&quot;callToActionText&quot;:&quot;Visit Site&quot;}]"/>
+    </jcr:content>
+</jcr:root>

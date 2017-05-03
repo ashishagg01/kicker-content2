@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T14:47:51.731+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"/>
+    <ep_Chilli-II-B-720x720.image.460.0.png/>
+    <Blazer-II-XP-940x940.image.460.0.png/>
+    <IntellaTip-MiFi-Tip-940x940.image.460.0.png/>
+    <ep_Chilli-II-H-661x661.image.460.0.png/>
+    <ep_Chilli-II-no-tail-940x940.image.460.0.png/>
+    <XPtipHnd_large_01_us_ep.image.460.0.jpg/>
+    <BlzIIXPtips_250x188_us.image.460.0.jpg/>
+    <IntellaTip-MiFi-XP-Catheter-and-Tips-940x940.image.460.0.png/>
+    <PrimeRVOT.image.460.0.jpg/>
+    <IntellaTip-MiFi-Tip-close-up-940x940.image.460.0.png/>
+    <PrimeAVNRT.image.460.0.jpg/>
+    <Blazer-Prime-Catheter_940x940.image.460.0.png/>
+    <PrimeAFL.image.460.0.jpg/>
+    <leads/>
+</jcr:root>

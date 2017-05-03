@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    title="Compliance"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <truste
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Hide Truste"
+            inputValue="true"
+            name="./hidetruste"
+            type="checkbox"
+            xtype="selection"/>
+        <disclaimertitle
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Disclaimer Title"
+            name="./disclaimertitle"
+            xtype="textfield"/>
+        <disclaimertext
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Disclaimer Text"
+            name="./disclaimertext"
+            xtype="textarea"/>
+        <psstlist
+            jcr:primaryType="cq:Widget"
+            fieldLabel="PSST Numbers"
+            name="./psstList"
+            xtype="multifield">
+            <fieldConfig
+                jcr:primaryType="cq:Widget"
+                name="./psstNumber"
+                width="155"
+                xtype="textfield"/>
+        </psstlist>
+    </items>
+</jcr:root>

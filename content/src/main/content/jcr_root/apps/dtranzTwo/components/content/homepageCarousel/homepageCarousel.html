@@ -1,0 +1,69 @@
+<!-- Including Component specific javascript file -->
+<div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap></div>
+<div data-sly-call="${clientLib.all @ categories='dtranz:carousel'}" data-sly-unwrap></div>
+<!-- end -->
+
+
+<!-- COMPONENT: masthead-carousel-rollover -->
+<section class="masthead-carousel carousel rollover clearfix">
+  <div class="carousel-nav">
+    <a href="#" class="carousel-nav-prev"><span class="fa fa-angle-left">&#xf104;</span></a>
+    <a href="#" class="carousel-nav-next"><span class="fa fa-angle-right">&#xf105;</span></a>
+  </div>
+  <div class="carousel-container" data-sly-use.carousel="org.kicker.aem.content.homepagecarousel.HomePageCarousel">
+    <ul class="carousel-slides" data-sly-list="${carousel.dataList}">
+      <li class="carousel-slide">
+        <!-- COMPONENT: responsive-image -->
+        <img class="img img-responsive js-image-responsive" alt="Responsive Image Test"
+          src="${item.image}"
+          data-xssrc="${item.image}"
+          data-hdxssrc="${item.hdimage}-2-hd.jpg"
+          data-smsrc="${item.image}"
+          data-hdsmsrc="${item.hdimage}-2-hd.jpg"
+          data-mdsrc="${item.image}"
+          data-hdmdsrc="${item.hdimage}-2-hd.jpg" />
+        <!-- COMPONENT END: responsive-image -->
+        <div class="carousel-rollover-tile">
+          <h3>${item.intro}</h3>
+          <h2>${item.mainTitle}</h2>
+          <p>${item.description}</p>
+		<div data-sly-test="${item.callToAction !=''}">
+          <a class="carousel-btn fancybox-media" href="${item.callToAction}.html">${item.callToActionText}<span class="arrows"><i class="fa fa-angle-right"></i></span></a>
+		</div>
+        <div data-sly-test="${item.callToAction==''}">
+          <a class="carousel-btn fancybox-media" href="#">${item.callToActionText}<span class="arrows"><i class="fa fa-angle-right"></i></span></a>
+		</div>
+       </div>
+        <!-- carousel rollovers below -->
+        <a href="#" class="carousel-nav-prev carousel-rollover">
+          <!-- COMPONENT: responsive-image -->
+          <img class="img img-responsive js-image-responsive" alt="Responsive Image Test"
+            src="${item.previewThumbnail}"
+            data-xssrc="${item.previewThumbnail}"
+            data-hdxssrc="${item.previewThumbnail}"
+            data-smsrc="${item.previewThumbnail}"
+            data-hdsmsrc="${item.previewThumbnail}"
+            data-mdsrc="${item.previewThumbnail}"
+            data-hdmdsrc="${item.previewThumbnail}"/>
+          <!-- COMPONENT END: responsive-image -->
+          <span>${item.previewTitle}</span>
+        </a>
+        <a href="#" class="carousel-nav-next carousel-rollover">
+          <!-- COMPONENT: responsive-image -->
+          <img class="img img-responsive js-image-responsive " alt="Responsive Image Test"
+            src="${item.previewThumbnail}"
+            data-xssrc="${item.previewThumbnail}"
+            data-hdxssrc="${item.previewThumbnail}"
+            data-smsrc="${item.previewThumbnail}"
+            data-hdsmsrc="${item.previewThumbnail}"
+            data-mdsrc="${item.previewThumbnail}"
+            data-hdmdsrc="${item.previewThumbnail}" />
+          <!-- COMPONENT END: responsive-image -->
+          <span>${item.previewTitle}</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- COMPONENT END: masthead-carousel-rollover -->
+<!-- COMPONENT: content-callout-row -->

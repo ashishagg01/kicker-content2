@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2015-09-28T14:43:02.268+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:language="fr"
+    jcr:mixinTypes="[cq:ReplicationStatus,mix:language]"
+    jcr:primaryType="nt:folder">
+    <error400
+        cq:lastReplicated="{Date}2015-09-28T14:43:02.615+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n-error400"
+        sling:message="Oops - Accès refusé français"/>
+    <error404
+        cq:lastReplicated="{Date}2015-09-28T14:43:02.366+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n-error404"
+        sling:message="Oops - Page non trouvée"/>
+    <error503
+        cq:lastReplicated="{Date}2015-09-28T14:43:02.323+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n-error503"
+        sling:message="Oops -quelque chose allait mal"/>
+    <errorMsg400
+        cq:lastReplicated="{Date}2015-09-28T14:43:02.529+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n-errorMsg400"
+        sling:message="La page que vous recherchez pourrait avoir été supprimée, que son nom ait changé ou est temporairement indisponible . Mais , nous pouvons vous aider ."/>
+    <errorMsg404
+        cq:lastReplicated="{Date}2015-09-28T14:43:02.719+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n-errorMsg404"
+        sling:message="La page que vous recherchez pourrait avoir été supprimée, que son nom ait changé ou est temporairement indisponible . Mais , nous pouvons vous aider ."/>
+    <errorMsg503
+        cq:lastReplicated="{Date}2015-09-28T14:43:02.456+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="i18n-errorMsg503"
+        sling:message="La page que vous recherchez pourrait avoir été supprimée, que son nom ait changé ou est temporairement indisponible . Mais , nous pouvons vous aider ."/>
+</jcr:root>

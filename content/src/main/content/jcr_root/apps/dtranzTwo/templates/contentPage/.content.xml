@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Boston Content Page"
+    jcr:primaryType="cq:Template"
+    jcr:title="Boston Content Page"
+    allowedChildren="[/apps/dtranzTwo/templates/detailPage]"
+    allowedPaths="[/content/[^/]+(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T14:43:11.944+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="dtranzTwo/components/page/display/contentPage"/>
+</jcr:root>

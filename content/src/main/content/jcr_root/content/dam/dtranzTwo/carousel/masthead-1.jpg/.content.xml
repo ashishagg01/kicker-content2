@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b76e0a89-e619-49f6-89e4-adf10ff91c1f">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T12:03:39.671+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="masthead-1.jpg"
+        cq:parentPath="/content/dam/dtranzTwo/carousel"
+        dam:lastInvalidateCache="{Date}2015-08-20T13:54:46.225+05:30"
+        dam:s7damAnchorX="{Long}470"
+        dam:s7damAnchorY="{Long}205"
+        dam:s7damHeight="{Long}410"
+        dam:s7damImageCopyPath="C:\\Users\\DEEPAK~1.SIN\\AppData\\Local\\Temp\\scene76817118891167621291.tmp"
+        dam:s7damType="Image"
+        dam:s7damWidth="{Long}940"
+        jcr:lastModified="{Date}2015-10-01T11:29:49.973+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2015-08-21T11:47:02.912+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}5.69444465637207"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}13.05555534362793"
+            dam:Progressive="no"
+            dam:sha1="28e65055d09fe10212739be95cfd1ce94643a386"
+            dam:size="{Long}38589"
+            dam:writebackEnable="False"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2015-08-21T11:47:02.217+05:30"
+            jcr:lastModified="{Date}2015-09-18T09:21:01.421+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}410"
+            tiff:ImageWidth="{Long}940"
+            writebackEnable="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

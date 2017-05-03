@@ -1,0 +1,184 @@
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+<meta data-sly-call="${clientlib.all @categories='dtranz.custom.widgets'}" data-sly-unwrap></meta>
+
+   <!-- COMPONENT: header -->
+   <!-- COMPONENT END: header -->
+   <div class="template template-d">
+      <div class="container main" data-sly-use.prodHead="org.kicker.aem.content.productheader.ProdHeader">
+         <!-- COMPONENT: layout-component-two-col -->
+         <div class="layout-component two-col">
+            <div class="row">
+               <div>
+                  <!-- COMPONENT: product-viewer-title -->
+                  <h1 class="product-viewer-title">${properties.title}</h1>
+                  <h2 class="product-viewer-title subtitle">${properties.lighttitle}</h2>
+                  <!-- COMPONENT END: product-viewer-title -->
+               </div>
+				<div>
+					<div data-sly-resource="${'actionButtonscomponent' @ resourceType='dtranzTwo/components/content/actionButtons'}" data-sly-unwrap> </div>
+				</div>
+            </div>
+         </div>
+         <!-- COMPONENT END: layout-component-two-col -->
+         <!-- COMPONENT: product-viewer -->
+         <div class="product-viewer clearfix">
+            <div>
+               <div class="container">
+                  <div class="product-viewer-gallery col-md-6 col-sm-12">
+                     <!-- large images below -->
+                     <div class="product-viewer-gallery-image">
+                        <ul data-sly-list="${prodHead.prodHeaderCarouselList}">
+						  <li class="${itemList.first ?'active':''}">
+
+                              <a href="${item.media_ph}" class="zoom-link product-viewer-zoom-icon"><i class="fa fa-search"></i></a>
+                              <a href="${item.media_ph}">
+                                 <!-- COMPONENT: responsive-image -->
+                                 <img class="img img-responsive js-image-responsive product-viewer-gallery-img" alt="Responsive Image Test"
+                                    src="${item.media_ph}"
+                                    data-xssrc="${item.media_ph}" 
+                                    data-hdxssrc="${item.media_ph}" 
+                                    data-smsrc="${item.media_ph}" 
+                                    data-hdsmsrc="${item.media_ph}"
+                                    data-mdsrc="${item.media_ph}"  
+                                    data-hdmdsrc="${item.media_ph}"  />
+                                 <!-- COMPONENT END: responsive-image -->
+
+								<div data-sly-test="${item.isVideo_ph}" data-sly-unwrap>
+
+                                 <span class="play-icon-overlay">
+                                    <!-- COMPONENT: responsive-image -->
+                                    <img class="img img-responsive js-image-responsive play-icon-img" alt="Responsive Image Test"
+                                       src="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png"
+                                       data-xssrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png" 
+                                       data-hdxssrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png" 
+                                       data-smsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png" 
+                                       data-hdsmsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png"
+                                       data-mdsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png"  
+                                       data-hdmdsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-video-play_80.png"  />
+                                    <!-- COMPONENT END: responsive-image -->
+                                 </span>
+                                 <!-- COMPONENT END: video-icon-overlay -->
+								 </div>
+                              </a>
+                           </li>                          
+                          </ul>
+                     </div>
+                     <!-- thumbnails below -->
+                     <div class="product-viewer-gallery-carousel clearfix">
+                        <a href="#" class="product-viewer-gallery-carousel-nav prev"><span class="fa fa-angle-left"></span></a>
+                        <div class="product-viewer-gallery-carousel-images">
+                           <ul data-sly-list="${prodHead.prodHeaderCarouselList}">
+                              <li class="${itemList.first?'active':''}"><a href="#"><img src="${item.media_ph}" /></a>
+
+								 <div data-sly-test="${item.isVideo_ph}" data-sly-unwrap>
+                                 <span class="play-icon-overlay-thumbnail">
+                                    <!-- COMPONENT: responsive-image -->
+                                    <img class="img img-responsive js-image-responsive play-icon-img" alt="Responsive Image Test"
+                                       src="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png"
+                                       data-xssrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png" 
+                                       data-hdxssrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png" 
+                                       data-smsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png" 
+                                       data-hdsmsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png"
+                                       data-mdsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png"  
+                                       data-hdmdsrc="/etc/designs/dtranztwo/design/assets/img/icons/icon-play.png"  />
+                                    <!-- COMPONENT END: responsive-image -->
+								
+                                 </span>
+								 </div>
+                              </li>                             
+                           </ul>
+                        </div>
+						
+						
+						
+						
+                        <a href="#" class="product-viewer-gallery-carousel-nav next"><span class="fa fa-angle-right"></span></a>
+                     </div>
+                     <!-- descriptions below -->
+                     <div class="product-viewer-gallery-description" data-sly-list="${prodHead.prodHeaderCarouselList}">
+                        <p class="${itemList.first?'active':''}">${item.description_ph}</p>                       
+                     </div>
+                  </div>
+				  
+				  
+				  
+				  
+				  
+                  <div class="product-viewer-sidebar col-md-6 col-sm-12">
+                     <div class="product-viewer-sidebar-top col-md-12 col-sm-6 col-xs-12 clearfix">
+                        <!-- COMPONENT: text -->
+                        <p class="">${properties.productDesc}</p>
+                        <!-- COMPONENT END: text -->
+                        <h4>${properties.productResourcesTitle}</h4>
+                        <!-- COMPONENT: link -->
+
+						
+						<div data-sly-list="${prodHead.prodHeaderResourceList}">
+							<a href="${item.resourcelinkto}" class="product-viewer-resource">${item.resourcelinktext}<span class="arrows"><i class="fa fa-angle-right"></i></span></a>                     
+                        </div>
+                        <!-- COMPONENT END: link -->
+                     </div>
+
+					 
+					 
+                     <div class="product-viewer-sidebar-bottom col-md-12 col-sm-6 col-xs-12">
+                        <!-- COMPONENT: link -->
+                        <a href="${properties.productButtonLink}" class="product-viewer-request-button">${properties.productButtonText}</a>
+                        <!-- COMPONENT END: link -->
+                        <section class="contact-us-links">
+                           <ul class="contact-links-list" data-sly-list="${prodHead.prodHeaderCalloutList}">
+                              <!-- COMPONENT: icon-link -->
+                              <li>
+                                 <a href="${item.calloutlinkto}">
+                                 <img src="${item.callouticon}" class="img img-responsive" alt="${item.calloutlinktext}" />
+                                 <span>${item.calloutlinktext}</span>
+                                 </a>
+                              </li>                            
+                           </ul>
+                        </section>
+                        <!-- COMPONENT: sidebar-share -->
+                        <div class="sidebar-share hidden-sm hidden-xs">
+                           <ul>
+                              <li>
+                                 <p>Share:</p>
+                              </li>
+                              <li><a href="https://www.twitter.com/share?url=http://localhost:8888/product-detail-page.php" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8888/product-detail-page.php" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="mailto:email@email.com?body=http://localhost:8888/product-detail-page.php"><i class="fa fa-envelope"></i></a></li>
+                           </ul>
+                        </div>
+                        <!-- COMPONENT END: sidebar-share -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- COMPONENT END: product-viewer -->
+         <!-- COMPONENT: explore-product-link-list -->
+
+
+         <section class="explore-products js-explore-products">
+            <h3>${properties.exploresectiontitle}</h3>
+            <ul class="explore-product-link-list js-explore-product-link-list">
+            </ul>
+         </section>
+		 <!-- COMPONENT END: explore-product-link-list -->
+
+
+         <!-- COMPONENT: product-section -->
+         <div id="js-product-section" data-sly-resource="${'productSection' @resourceType='wcm/foundation/components/parsys'}">
+            <!-- Parsys div that wraps all product sections needs this class for javascript-->
+         </div>
+         <!-- COMPONENT END: product-section -->
+
+
+
+         <!-- COMPONENT: back-to-top -->
+         <a class="back-to-top js-back-to-top" href="#">
+         <i class="fa fa-chevron-up"></i>
+         <span class="top-text">Top</span>
+         </a>
+         <!-- COMPONENT END: back-to-top -->
+         <!-- END CONTENT WELL -->			
+      </div>
+   </div>

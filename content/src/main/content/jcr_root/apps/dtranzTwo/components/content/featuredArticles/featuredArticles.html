@@ -1,0 +1,40 @@
+<!-- Including Component specific javascript file -->
+
+<div data-sly-test.author="${wcmmode.edit || wcmmode.design}">
+	<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap></section>
+	<meta data-sly-call="${clientLib.all @ categories='dtranz:featuredArticle'}" data-sly-unwrap></meta>
+</div>
+<!-- end -->
+<section class="feature-content-article-image carousel clearfix">
+	<div class="carousel-container" data-sly-use.article="org.kicker.aem.content.featuredArticle.FeaturedArticles">
+
+		<ul class="carousel-slides" data-sly-list="${article.articles}">
+			<li class="carousel-slide">
+
+				<div class="article-image ${item.color}">
+					<div class="image">
+						<a href="#">
+
+<!-- COMPONENT: responsive-image -->
+
+<img class="img img-responsive js-image-responsive " alt="Responsive Image Test"
+	src="${item.image}"
+	data-xssrc="${item.image}"
+	data-hdxssrc="${item.image}"
+	data-smsrc="${item.image}"
+	data-hdsmsrc="${item.image}"
+	data-mdsrc="${item.image}"
+	data-hdmdsrc="${item.image}" />
+<!-- COMPONENT END: responsive-image -->
+						</a>
+					</div>
+					<div class="article">
+						<h4>${item.headers}</h4>
+						<h3>${item.title}</h3>
+					</div>
+					<a href="${item.article}.html" class="go-link"><i class="fa fa-angle-right"></i></a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>

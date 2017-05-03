@@ -1,0 +1,56 @@
+<section data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-unwrap></section>
+
+<meta data-sly-call="${clientlib.all @categories='dtranz:nav'}" data-sly-unwrap></meta>
+
+<nav class="nav-megamenu clearfix">
+	<div class="centeredlist">
+		<ul class="main-nav" data-sly-use.primaryNav="org.kicker.aem.content.primarynavigation.PrimaryNavigation" data-sly-list.items="${primaryNav.menuList}">
+			<div data-sly-test="${itemsList.first}" data-sly-unwrap>
+				<li class="first">
+			</div>
+			<div data-sly-test="${! itemsList.first}" data-sly-unwrap>
+    		<div data-sly-test="${itemsList.last}" data-sly-unwrap>
+                        <li class="last">
+            </div>
+            <div data-sly-test="${! itemsList.last}" data-sly-unwrap>
+                      <li>
+            </div>
+
+			</div>
+
+
+				<a href="${items.menuItem}"><span class="item-name">${items.overviewLinkText}</span><i class="fa fa-lg fa-angle-right item-expand-side"></i><i class="fa fa-lg fa-angle-down item-expand-down"></i></a>
+				<!-- To be handled based on feature Image -->
+    <div data-sly-test="${items.flyout}">
+                <nav class="sub-nav with-feature" >
+					<section class="links">					
+						<a href="${items.menuItem}" class="clearfix">${items.overviewLinkText}</a>
+						<hr/> 
+
+							<div data-sly-list.child="${items.child}" data-sly-unwrap>
+
+							<ul>
+
+                                <li>
+                                    <a href="${child.path}">${child.title}</a>
+                                </li>
+
+							</ul>
+                            </div>
+
+					</section>
+                    <figure class="feature" data-sly-test="${items.featuredProductImage}">
+                            <img src="${items.featuredProductImage}" class="feature-img">
+                            <h1 data-sly-test="${items.featuredAreaTitle}">${items.featuredAreaTitle}</h1>
+                            <p>${items.featuredAreaDescription}</p>
+                            <a href="${items.callToAction}">${items.callToActionText}</a>
+							</figure>
+
+
+				</nav>
+    </div>
+			</li>
+		</ul>
+	</div>
+
+</nav>

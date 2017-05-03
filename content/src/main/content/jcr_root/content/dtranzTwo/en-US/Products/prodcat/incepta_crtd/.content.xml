@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-09-15T10:45:51.494+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:18.703+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/etc/scaffolding/productHeaderScaffold"
+        cq:tags="[bsc_categories:access_device_Dilatation/electrophysiology]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="incepta-crtd"
+        jcr:uuid="8d93e1a4-3c78-4cca-b4d3-6f7b82c17de5"
+        sling:resourceType="dtranzTwo/components/page/display/productDetailPage">
+        <productHeader
+            jcr:lastModified="{Date}2015-09-10T08:55:39.318+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/productHeader"
+            calloutIcon="/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-contact-support.png"
+            calloutLinks="\{&quot;calloutLinkTo&quot;:&quot;http://www.bostonscientific.com/en-US/contact-us.html&quot;,&quot;calloutlinkText&quot;:&quot;Contact Us&quot;,&quot;calloutIcon&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/icons/icon-contact-support.png&quot;}"
+            calloutlinkText="Contact Us"
+            calloutLinkTo="http://www.bostonscientific.com/en-US/contact-us.html"
+            carouselDescription="INCEPTA CRT-D"
+            carouselIsVideo="on"
+            carouselMedia="/etc/designs/dtranzTwo/designs/clientBase/img/crtd/INCEPTA-CRT-D_250x188.image.460.0.jpg"
+            exploresectiontitle="Explore"
+            lighttitle="Cardiac Resynchronization Therapy Defibrillator (CRT-D)"
+            productButtonLink="http://www.bostonscientific.com/en-US/medical-specialties/electrophysiology/request-a-sales-representative.html"
+            productButtonText="REQUEST A SALES REP"
+            productCarousel="\{&quot;carouselMedia&quot;:&quot;/etc/designs/dtranzTwo/designs/clientBase/img/crtd/INCEPTA-CRT-D_250x188.image.460.0.jpg&quot;,&quot;carouselDescription&quot;:&quot;INCEPTA CRT-D&quot;,&quot;carouselIsVideo&quot;:false}"
+            productDesc="The INCEPTA CRT-D provides advanced therapeutic options, is designed to streamline the implant procedure, and allows greater insight into patients’ heart failure status – all in the thinnest, long‐lasting, high‐energy device in the world."
+            productResourcesTitle="Key Resources"
+            resourceLinks="\{&quot;resourceLinkTo&quot;:&quot;http://www.bostonscientific.com/en-US/products/crt-d/incepta-crtd/incepta-crtd-prescriptive-information.html&quot;,&quot;resourceLinkText&quot;:&quot;Indications, Safety and Warnings&quot;}"
+            resourceLinkText="Indications, Safety and Warnings"
+            resourceLinkTo="http://www.bostonscientific.com/en-US/products/crt-d/incepta-crtd/incepta-crtd-prescriptive-information.html"
+            title="INCEPTA™">
+            <productSection
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys">
+                <subtitle
+                    jcr:created="{Date}2015-09-09T18:04:13.672+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-09T18:04:20.495+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/subtitle"
+                    selectType="h2"
+                    text="Product Details"/>
+                <text
+                    jcr:created="{Date}2015-09-09T18:04:40.117+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-09T18:04:50.612+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/text"
+                    richTxtEditor="&lt;h4>&lt;b>AcuShock™&amp;nbsp;Advanced&lt;/b>&lt;/h4>&#xa;&lt;p>T-wave oversensing remains the most frequent cause of ventricular oversensing for the industry; however shocks due to T-wave oversensing occur in &amp;lt;0.05% of shocks with Boston Scientific devices.1,2&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;Prior-generation devices using the AcuShock suite of therapeutic tools demonstrated that ~98% of patients were free of inappropriate shocks at 1 year in 15,991 patients&amp;nbsp;3,4. Compare this to competitor shock reduction claims based on virtual simulation.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;AcuShock Advanced features Rhythm ID®&amp;nbsp;with RhythmMatch™, Boston Scientific’s next generation morphology discriminator. RhythmMatch provides beat‐to‐beat correlation information in the stored episodes, allowing you to adjust the Rhythm ID morphology discriminator in an attempt to avoid inappropriate shocks.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;RhythmMatch enables physicians to tailor treatment decisions by making informed modifications to Rhythm ID’s threshold (correlation coefficient) to be more appropriate for each individual patient.&lt;/p>&#xa;"/>
+                <accordion
+                    jcr:created="{Date}2015-09-09T18:06:23.301+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-09T18:06:38.327+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/accordion"
+                    seeLess="Read Less"
+                    seeMore="Read More">
+                    <accordionContent
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/parsys">
+                        <text
+                            jcr:created="{Date}2015-09-09T18:06:51.694+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2015-09-09T18:07:15.103+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dtranzTwo/components/content/text"
+                            richTxtEditor="&lt;h4>Advanced Heart Failure Management&lt;/h4>&#xa;&lt;p>Heart failure is the #1 leading cause of hospitalizations in the developed world. Boston Scientific is the only company with indications for all four classes of heart failure. Through LATITUDE™&amp;nbsp;Heart Failure Management, Boston Scientific brings you the only remotely monitored diagnostic information aligned with JCAHO and the ACC/AHA guidelines for heart failure.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;LATITUDE Heart Failure Management System is the only remote monitoring system that has been approved with a weight alert that indicates a potential change in a patient’s health status. The essential diagnostic information gained through remote monitoring of weight and blood pressure (LATITUDE&amp;nbsp;Heart Failure Management) is now included with INCEPTA devices.&amp;nbsp;&lt;/p>&#xa;&lt;h4>Exceptional Longevity&lt;/h4>&#xa;&lt;p>INCEPTA CRT-Ds are the thinnest high-energy devices on the market without sacrificing on device longevity, which is supported by our industry‐leading warranty covering device replacements for up to 10 years. INCEPTA features proprietary battery technology which is projected to last, on average, twice as long as competitive devices.5&lt;/p>&#xa;&lt;h4>A Legacy of Lead Reliability&lt;/h4>&#xa;&lt;p>Reliability and performance of leads over time is important for patient safety and ICD system performance. RELIANCE leads with 4‐SITE are built on the demonstrated performance and reliability of the RELIANCE ICD lead platform -- the only high voltage lead family on the market for over 10 years with 0 recalls.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;ENDOTAK RELIANCE is the only lead with GORE ePTFE‐covered shocking coils, which prevent tissue in‐growth and does not affect defibrillation thresholds. The RELIANCE DF-1 lead has nearly 98.9% survival probability at 9 years while Medtronic Sprint Quattro™™ ST Optim™&amp;nbsp;has 98.8% at 3 years.6&lt;br>&#xa;&lt;br>&#xa;Furthermore, the proprietary EZ-4™&amp;nbsp;connector tool is designed to streamline the implant procedure by helping perform multiple tasks with a single tool. Ultimately, the RELIANCE 4‐SITE lead reduces lead pocket bulk by 30% via the elimination of the yoke and combining three terminals into that single DF4 connection.&lt;/p>&#xa;"/>
+                    </accordionContent>
+                </accordion>
+                <subtitle_0
+                    jcr:created="{Date}2015-09-09T18:07:36.182+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-09T18:07:44.589+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/subtitle"
+                    selectType="h2"
+                    text="Reimbursement"/>
+                <text_0
+                    jcr:created="{Date}2015-09-09T18:07:53.981+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2015-09-09T18:08:39.284+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dtranzTwo/components/content/text"
+                    richTxtEditor="&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/reimbursement/rhythm-management.html&quot; target=&quot;_blank&quot;>Rhythm Management reimbursement resources&lt;/a>&amp;nbsp;&amp;gt;&lt;/p>&#xa;"/>
+            </productSection>
+        </productHeader>
+    </jcr:content>
+</jcr:root>

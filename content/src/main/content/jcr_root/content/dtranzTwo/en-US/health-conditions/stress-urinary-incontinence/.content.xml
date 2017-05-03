@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-10-05T16:17:48.191+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-09-28T14:42:22.124+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/dtranzTwo/templates/subsectionLandingPage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Stress Urinary Incontinence"
+        jcr:uuid="bdedbb8d-86d2-4d7b-ba94-967b73f426f0"
+        sling:resourceType="dtranzTwo/components/page/display/subsectionLandingPage">
+        <title
+            jcr:lastModified="{Date}2015-10-05T15:25:17.011+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dtranzTwo/components/content/title"
+            pageTitle="Stress Urinary Incontinence"/>
+        <masthead-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <imagecarousel
+                jcr:created="{Date}2015-09-18T11:05:04.263+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T16:17:48.186+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/imageCarousel"
+                description="I'm not afraid to do anything now ..."
+                imageCarousel="\{&quot;title&quot;:&quot;FEATURED TREATMENT&quot;,&quot;description&quot;:&quot;I'm not afraid to do anything now ...&quot;,&quot;media&quot;:&quot;/content/dam/dtranzTwo/img/sui_masthead_liz_oconnell_laughing.image.690.0.jpg&quot;}"
+                media="/content/dam/dtranzTwo/img/sui_masthead_liz_oconnell_laughing.image.690.0.jpg"
+                title="FEATURED TREATMENT"/>
+        </masthead-par>
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text_0
+                jcr:created="{Date}2015-09-18T11:08:02.146+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T15:26:25.156+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;p>&lt;b>If you suffer from stress urinary incontinence, you are not alone!&lt;/b>&lt;/p>&#xa;&lt;p>Stress Urinary Incontinence, or SUI, afflicts approximately 18 million adults in the United States, 85% of them being women.&lt;/p>&#xa;&lt;p>Sufferers of incontinence typically wait 4-6 years before seeing a healthcare professional about this condition.&lt;/p>&#xa;&lt;h2>Ways You Can Take Action&lt;/h2>&#xa;&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/health-conditions/stress-urinary-incontinence/symptoms-of-stress-urinary-incontinence.html&quot;>&lt;img src=&quot;http://www.bostonscientific.com/content/gwc/en-US/health-conditions/stress-urinary-incontinence/jcr:content/maincontent-par/imagetile.img.sui_symptoms_women_walking_220.image.220.0.jpg&quot; width=&quot;143&quot; height=&quot;NaN&quot;>&lt;/a>&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/health-conditions/stress-urinary-incontinence/symptoms-of-stress-urinary-incontinence.html&quot;>Understand SUI Symptoms&lt;/a>&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/health-conditions/stress-urinary-incontinence/treatment-options-for-stress-urinary-incontinence.html&quot;>&lt;img src=&quot;http://www.bostonscientific.com/content/gwc/en-US/health-conditions/stress-urinary-incontinence/jcr:content/maincontent-par/imagetile_0.img.sui_explore_treatment_options_220.image.220.0.jpg&quot; width=&quot;143&quot; height=&quot;NaN&quot;>&lt;/a>&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/health-conditions/stress-urinary-incontinence/treatment-options-for-stress-urinary-incontinence.html&quot;>Explore Treatment Options&lt;/a>&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/health-conditions/stress-urinary-incontinence/sui-find-a-physician.html&quot;>&lt;img src=&quot;http://www.bostonscientific.com/content/gwc/en-US/health-conditions/stress-urinary-incontinence/jcr:content/maincontent-par/imagetile_1.img.sui_find_a_physician1_220.image.220.0.jpg&quot; width=&quot;143&quot; height=&quot;NaN&quot;>&lt;/a>&lt;/p>&#xa;&lt;p>&lt;a href=&quot;http://www.bostonscientific.com/en-US/health-conditions/stress-urinary-incontinence/sui-find-a-physician.html&quot;>Find a Physician&lt;/a>&lt;/p>&#xa;"/>
+        </content-par>
+        <rightrail-ipar
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/iparsys">
+            <socialbuttons
+                jcr:created="{Date}2015-09-28T13:21:51.040+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T14:02:22.663+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/socialButtons"
+                mailImage="/content/dam/dtranzTwo/img/message-icon.PNG"
+                msgImageType="imageurl"
+                shareText="Share"
+                socialButton="[{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/twitter-icon.PNG&quot;\,&quot;url&quot;:&quot;https://twitter.com/intent/tweet&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/facebook-icon.PNG&quot;\,&quot;url&quot;:&quot;https://www.facebook.com/sharer/sharer.php&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;},{&quot;image&quot;:&quot;/content/dam/dtranzTwo/img/linkedin-icon.PNG&quot;\,&quot;url&quot;:&quot;https://www.linkedin.com/cws/share&quot;\,&quot;imagetype&quot;:&quot;imageurl&quot;\,&quot;imageCss&quot;:&quot;&quot;}]"
+                subject="Thought This Would be Interesting for You"/>
+            <socialtile
+                jcr:created="{Date}2015-09-28T13:22:05.988+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-09-28T13:22:34.627+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/socialTile"
+                pageUrl="https://www.facebook.com/BostonScientific"
+                pageUrlLinkedin="http://news.bostonscientific.com/news-alerts"
+                twitterUname="@bostonsci"
+                widget="643714964738314241"/>
+            <text
+                jcr:created="{Date}2015-10-05T13:16:34.719+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-05T13:17:29.038+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dtranzTwo/components/content/text"
+                richTxtEditor="&lt;h3>Brochure&lt;/h3>&#xa;&lt;p>Answering Your Questions&lt;/p>&#xa;&lt;p>About the EP Study&lt;/p>&#xa;"/>
+        </rightrail-ipar>
+    </jcr:content>
+    <BostonScientific/>
+</jcr:root>

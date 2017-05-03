@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="700"
+    title="Dialog"
+    width="700"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <general
+                jcr:primaryType="cq:Panel"
+                title="Featured Article">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <linktype
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click the '+' to add a new featured article"
+                        fieldLabel="Featured article"
+                        hideLabel="false"
+                        name="./farticle"
+                        title=""
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            border="true"
+                            hideLabel="true"
+                            layout="form"
+                            padding="10px"
+                            width="1000"
+                            xtype="featuredArticleMultifield"/>
+                        <listeners jcr:primaryType="nt:unstructured"/>
+                    </linktype>
+                </items>
+            </general>
+        </items>
+    </items>
+</jcr:root>

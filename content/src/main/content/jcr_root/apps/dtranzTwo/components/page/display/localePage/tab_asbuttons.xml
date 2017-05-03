@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    title="Action and Social Butons"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <resize
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Resize Button Label"
+            name="/resizelabel"
+            xtype="textfield"/>
+        <print
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Print Button Label"
+            name="./printlabel"
+            xtype="textfield"/>
+        <share
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Share Text Label"
+            name="./sharelabel"
+            xtype="textfield"/>
+        <emailsubject
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Email Subject Text"
+            name="./resizelabel"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

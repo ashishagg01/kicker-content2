@@ -1,0 +1,8 @@
+#base=js
+jquery.hammer.min.js
+jquery.form.js
+jquery.fancybox.js
+jquery.fancybox-media.js
+placeholder.js
+respond.min.js
+main.js

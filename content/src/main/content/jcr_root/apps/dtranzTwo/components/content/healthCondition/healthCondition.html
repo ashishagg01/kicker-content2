@@ -1,0 +1,34 @@
+<article>
+<div class="finder" data-sly-use.healthCond="org.kicker.aem.content.healthcondition.HealthCondition" >
+	<div class="finder-header clearfix">
+        <h2>${properties.title}</h2>
+	</div>
+    <div class="finder-contents" style="width:100%;">
+    	<div data-sly-test="${!healthCond.healthConditionPageList}">
+
+
+                   <script>
+                        $(document).ready(function(){
+                            $("#popUpBtn").click(function(){
+                                $("#popUpModal").modal();
+                            });
+                        });
+                    </script>
+             <button type="button" class="btn btn-info btn-lg" id="popUpBtn">Click to set preferences</button>        
+            <div data-sly-resource="${'health' @ resourceType='dtranzTwo/components/content/healthCondPopUp'}"></div>
+
+
+
+        </div>
+    	<div data-sly-test="${healthCond.healthConditionPageList}">
+			<!-- COMPONENT: links-list-product -->
+			<ul class="links-list four-three-col-list" data-sly-list="${healthCond.healthConditionPageList}">
+				<li class="links-list-item">
+					<a href="${item.path}">${item.title}</a>
+				</li>
+			</ul>
+            <!-- COMPONENT END: links-list-product -->
+        </div>
+    </div>    
+</div>
+</article>

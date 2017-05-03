@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Footer Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <basic
+                jcr:primaryType="cq:Panel"
+                title="Basic">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <copyright
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter the Copyright text"
+                        fieldLabel="Copyright"
+                        height="1"
+                        name="./copyright"
+                        rank="{Long}1"
+                        xtype="richtext">
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="[specialchars]"
+                                id="misc"
+                                name="misctools">
+                                <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                    <chars
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;#8224;">
+                                        <copyright
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;#169;"/>
+                                    </chars>
+                                </specialCharsConfig>
+                            </misctools>
+                            <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="[subscript,superscript]"
+                                name="subsuperscript"/>
+                            <format
+                                jcr:primaryType="nt:unstructured"
+                                features="none"
+                                name="format"/>
+                            <justify
+                                jcr:primaryType="nt:unstructured"
+                                features="none"
+                                name="justify"/>
+                            <links
+                                jcr:primaryType="nt:unstructured"
+                                features="none"
+                                name="links"/>
+                            <lists
+                                jcr:primaryType="nt:unstructured"
+                                features="none"
+                                name="lists"/>
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                features="none"
+                                name="Image"/>
+                        </rtePlugins>
+                    </copyright>
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter a short description"
+                        fieldLabel="Description"
+                        name="./description"
+                        xtype="textfield"/>
+                </items>
+            </basic>
+            <links
+                jcr:primaryType="cq:Panel"
+                title="Links">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <links
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Click the '+' to add Link"
+                        fieldLabel="Links"
+                        name="./links"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="mypathfield"/>
+                        <listeners jcr:primaryType="nt:unstructured"/>
+                    </links>
+                </items>
+            </links>
+            <socialLinks
+                jcr:primaryType="cq:Panel"
+                title="Social Links">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <twitter
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter the twitter url to follow"
+                        fieldLabel="twitter"
+                        name="./twitter"
+                        xtype="pathfield"/>
+                    <facebook
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter the facebook page url to follow"
+                        fieldLabel="Facebook"
+                        name="./facebook"
+                        xtype="pathfield"/>
+                    <linkedin
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter the linked in url to follow"
+                        fieldLabel="linkedin"
+                        name="./linkedin"
+                        xtype="pathfield"/>
+                    <rss
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter the RSS feed link"
+                        fieldLabel="RSS"
+                        name="./rss"
+                        xtype="pathfield"/>
+                    <followus
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Enter the “Follow Us” Text"
+                        fieldLabel="Follow Us"
+                        name="./followUs"
+                        xtype="textfield"/>
+                </items>
+            </socialLinks>
+        </items>
+    </items>
+</jcr:root>

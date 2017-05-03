@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        helpPath="en/cq/current/wcm/default_components.html#Text"
+        title="Text"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Widget"
+                anchor="100%"
+                border="false"
+                height=""
+                title="Text"
+                width=""
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Leave empty to use the page title"
+                        fieldLabel="Subtitle"
+                        name="./text"
+                        validateOnBlur="true"
+                        xtype="textfield"/>
+                    <selectType
+                        jcr:primaryType="cq:Widget"
+                        allowEmpty="false"
+                        defaultValue="h2"
+                        fieldLabel="Heading Tag"
+                        name="./selectType"
+                        type="select"
+                        value="h2"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <h2
+                                jcr:primaryType="nt:unstructured"
+                                text="Heading 2"
+                                value="h2"/>
+                            <h3
+                                jcr:primaryType="nt:unstructured"
+                                text="Heading 3"
+                                value="h3"/>
+                            <h4
+                                jcr:primaryType="nt:unstructured"
+                                text="Heading 4"
+                                value="h4"/>
+                        </options>
+                    </selectType>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

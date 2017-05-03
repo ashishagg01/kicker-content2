@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="224360d1-678d-47cd-ba23-88da46c9fc98">
+    <jcr:content
+        cq:lastReplicated="{Date}2015-09-28T12:03:41.518+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="iStock_000023028810Large - Patient 940x410.image.940.0.jpg"
+        cq:parentPath="/content/dam/dtranzTwo/img"
+        dam:lastInvalidateCache="{Date}2015-09-18T12:54:08.861+05:30"
+        dam:s7damAnchorX="{Long}470"
+        dam:s7damAnchorY="{Long}205"
+        dam:s7damHeight="{Long}410"
+        dam:s7damImageCopyPath="C:\\Users\\PARAGB~1.GAR\\AppData\\Local\\Temp\\scene78035437783498768496.tmp"
+        dam:s7damType="Image"
+        dam:s7damWidth="{Long}940"
+        jcr:lastModified="{Date}2015-10-01T11:29:51.187+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2015-10-01T11:29:47.248+05:30"
+            jcr:lastModified="{Date}2015-10-01T11:29:47.248+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}410"
+            tiff:ImageWidth="{Long}940"
+            writebackEnable="{Boolean}true"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

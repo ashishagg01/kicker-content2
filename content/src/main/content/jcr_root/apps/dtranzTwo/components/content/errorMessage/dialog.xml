@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <padding
+                jcr:primaryType="cq:Panel"
+                title="Error Code">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <filterByText
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="false"
+                        fieldDescription="Error code "
+                        fieldLabel="Error code"
+                        name="./errorCode"
+                        xtype="textfield"/>
+                </items>
+            </padding>
+        </items>
+    </items>
+</jcr:root>

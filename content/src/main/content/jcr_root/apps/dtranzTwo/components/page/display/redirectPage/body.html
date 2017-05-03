@@ -1,0 +1,22 @@
+<script>
+    $(document).ready(function(){
+    	var redirectPath = $("#redirectTarget").text();
+		var ext;
+
+		if(redirectPath.startsWith("/content")){
+			ext = ".html";
+        } else {
+        	ext = "";
+        }
+
+        if(redirectPath!=null && redirectPath!='')
+        {
+
+            window.open(redirectPath+ext, '_blank');
+            history.go(-1);
+        }
+
+	});
+</script>
+
+<p id="redirectTarget" style="color:white">${currentPage.getProperties.redirectTarget}</p>
